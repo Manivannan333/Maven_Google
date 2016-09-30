@@ -1,0 +1,66 @@
+<acceptance-test-run title="Arming the System with Away mode" name="Arming the System with Away mode" description="" steps="5" successful="1" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="43812" timestamp="2016-09-29T16:01:01.298-04:00" session-id="b5a69fa5-cd43-804f-b1de-fccfecca5b67">
+  <user-story id="overview" name="Overview" path="Overview.feature"/>
+  <tags>
+    <tag name="Overview" type="feature"/>
+    <tag name="reg1" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>user_name</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="ERROR">
+        <value>cimxhm22</value>
+        <value>Xhome170!</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {user_name=cimxhm22, password=Xhome170!}" result="ERROR">
+    <screenshots>
+      <screenshot image="9dcd3ea041821c845e4fd8ec2f6191b3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="32194">
+      <screenshots>
+        <screenshot image="9dcd3ea041821c845e4fd8ec2f6191b3.png"/>
+        <screenshot image="38349a9b3872e095f0ea5fbc03c9d944.png"/>
+      </screenshots>
+      <description>Given XFINITY Home application URL has been launched</description>
+    </test-step>
+    <test-group name="And Agent has logged into XFINITY Home successfully with &quot;cimxhm22&quot; and &quot;Xhome170!&quot;" result="ERROR">
+      <screenshots>
+        <screenshot image="38349a9b3872e095f0ea5fbc03c9d944.png"/>
+      </screenshots>
+      <test-step result="ERROR" duration="207">
+        <screenshots>
+          <screenshot image="38349a9b3872e095f0ea5fbc03c9d944.png"/>
+          <screenshot image="38349a9b3872e095f0ea5fbc03c9d944.png" source="pagesource816002400819795709.html.txt"/>
+        </screenshots>
+        <description>Login to application: cimxhm22, Xhome170!</description>
+        <error>org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;PATAPL-C3GUF6T6&apos;, ip: &apos;10.36.96.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: unknown</error>
+        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;PATAPL-C3GUF6T6&apos;, ip: &apos;10.36.96.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: unknown
+[com.comcast.serenity.XHomePOC1.LoginPage.enterCredentialDetailsWithStayIn(LoginPage.java:120), com.comcast.serenity.XHomePOC.Overview_Steps.loginToApplication(Overview_Steps.java:22), com.comcast.serenity.XHomePOC.Overview_StepDefinition.agent_has_logged_into_XFINITY_Home_successfully_with_and(Overview_StepDefinition.java:40)]</exception>
+      </test-step>
+    </test-group>
+    <test-step result="SKIPPED" duration="2">
+      <description>And Check the system is Armed and make it disarmed</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="1">
+      <description>Then Arm the system in Away mode</description>
+    </test-step>
+    <test-step result="SKIPPED" duration="2">
+      <description>Then User signout</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

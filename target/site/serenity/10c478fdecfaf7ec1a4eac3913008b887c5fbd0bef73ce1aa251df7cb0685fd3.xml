@@ -1,0 +1,33 @@
+<acceptance-test-run title="Google page" name="Google page" description="" steps="1" successful="1" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="6395" timestamp="2016-09-29T21:50:02.099-04:00" session-id="4fdef605-2e04-1c41-89fd-937179e83caf">
+  <user-story id="xhome-login" name="XHOME Login" path="Login.feature"/>
+  <tags>
+    <tag name="XHOME Login" type="feature"/>
+    <tag name="reg" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>user_name</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>cimxhm5</value>
+        <value>398475</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {user_name=cimxhm5, password=398475}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7711a5ea2e32013f1596da7856093288.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5295">
+      <screenshots>
+        <screenshot image="24516511f7ac61666158adfb942d2b49.png"/>
+      </screenshots>
+      <description>Given Open google url</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

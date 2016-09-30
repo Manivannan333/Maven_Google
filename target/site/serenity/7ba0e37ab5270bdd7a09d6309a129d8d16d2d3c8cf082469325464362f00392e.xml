@@ -1,0 +1,65 @@
+<acceptance-test-run title="Arming the System with Stay mode" name="Arming the System with Stay mode" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="196243" timestamp="2016-09-29T15:57:38.611-04:00" session-id="b5a69fa5-cd43-804f-b1de-fccfecca5b67">
+  <user-story id="overview" name="Overview" path="Overview.feature"/>
+  <tags>
+    <tag name="Overview" type="feature"/>
+    <tag name="reg1" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>user_name</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>cimxhm22</value>
+        <value>Xhome170!</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {user_name=cimxhm22, password=Xhome170!}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9dcd3ea041821c845e4fd8ec2f6191b3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="11069">
+      <screenshots>
+        <screenshot image="8d9a45f366ff2bdaea03059dfe0bcce8.png"/>
+      </screenshots>
+      <description>Given XFINITY Home application URL has been launched</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="16403">
+      <screenshots>
+        <screenshot image="8d9a45f366ff2bdaea03059dfe0bcce8.png"/>
+        <screenshot image="8f3a55e4e3c05195cae08666ae667764.png"/>
+        <screenshot image="146ac8e76d7baa64ff8e478d15f5a2de.png"/>
+      </screenshots>
+      <description>And Agent has logged into XFINITY Home successfully with &quot;cimxhm22&quot; and &quot;Xhome170!&quot;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="6410">
+      <screenshots>
+        <screenshot image="2e85d41c7e4b5f21f6929332471d3978.png"/>
+        <screenshot image="e3c7bf886a4243a7cbf97909917b80f5.png"/>
+      </screenshots>
+      <description>And Check the system is Armed and make it disarmed</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="99835">
+      <screenshots>
+        <screenshot image="e3c7bf886a4243a7cbf97909917b80f5.png"/>
+        <screenshot image="9a1ad5001e5008f2b3fc298ec6664075.png"/>
+        <screenshot image="34c9fd83e6ad50f02b423e1ac8450d70.png"/>
+        <screenshot image="a2afd8a557e4f78bee2eaba38e346b42.png"/>
+        <screenshot image="c26270b088e9caaf1e61867d086f9abf.png"/>
+      </screenshots>
+      <description>Then Arm the system in Stay mode</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="60663">
+      <screenshots>
+        <screenshot image="c26270b088e9caaf1e61867d086f9abf.png"/>
+        <screenshot image="9dcd3ea041821c845e4fd8ec2f6191b3.png"/>
+      </screenshots>
+      <description>Then User signout</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

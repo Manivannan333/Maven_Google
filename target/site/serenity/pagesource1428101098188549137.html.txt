@@ -1,0 +1,1699 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+	<title>Sign in to Comcast</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" type="text/css" href="/static/css/styles.min.css?v=1cfffbf" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="description" content="Comcast.net has more to offer when you sign in to your mySIGN-IN Account. Use your account to access other Comcast sites and services like Comcast.net, Plaxo, and more." />
+	<meta name="viewport" content="width=1024" />
+	<link rel="shortcut icon" href="/static/images/global/favicon.ico" />
+	<script type="text/javascript">
+	runtimeData = {
+		"reqId": "74181f9f-a7c0-4bbf-8d51-b47d1b2a481c",		"deviceAuthn": "false",		"s": "oauth",		"forceAuthn": "true",		"r": "comcast.net",		"ipAddrAuthn": "false",		"continue": "https://login.comcast.net/oauth/authorize?client_id=home-xfinity-com&amp;response_type=code&amp;scope=https://login.comcast.net/api/login%20openid%20profile%20https://secure.api.comcast.net/homesecurity/cvr%23read%20urn%3Acsp%3Ascope%3Aself-help%3Aaccount%3Ainternet-devices%23read&amp;state=/&amp;redirect_uri=https://tps.home.xfinity.com/session/cima_oauth2redirect/&amp;prompt=login&amp;response=1",		"passive": "false",		"client_id": "home-xfinity-com",		"lang": "en"	}
+	</script>
+	<script>
+(function() {
+var htmlElem = document.getElementsByTagName('html')[0];
+if (htmlElem.className.indexOf('dark') != -1) {
+function updateBackground() {
+var background = document.getElementById('background');
+if (background)
+background.style.height = window.innerHeight + 'px';
+}
+function updateBackgroundWhenAllowed() {
+var background = document.getElementById('background');
+if (background) {
+var currentHeight = parseInt(background.style.height || 0,10),
+heightIncreasing = window.innerHeight > currentHeight;
+if (heightIncreasing)
+updateBackground();
+}
+}
+if (window.addEventListener) {
+window.addEventListener("orientationchange", updateBackground);
+window.addEventListener("resize", updateBackgroundWhenAllowed);
+}
+htmlElem.style.backgroundColor = "#000";
+}
+})();
+</script>
+<script type="text/javascript" src="https://rtax.criteo.com/delivery/rta/rta.js?netId=2528&amp;cookieName=crtg_comcast&amp;rnd=26554459868&amp;varName=crtg_content" async=""></script><script type="text/javascript" src="https://swf.mixpo.com/js/h5p.js" async=""></script><style id="mixpo_css_6de86e4b-8a14-4807-b8ac-db640fae71e8" type="text/css">.mixpo_static_layer_0_0 {
+	z-index: 0;
+}
+.mixpo_static_layer_1_0 {
+	z-index: 10;
+}
+.mixpo_static_layer_1_5 {
+	z-index: 15;
+}
+.mixpo_static_layer_1_8 {
+	z-index: 18;
+}
+.mixpo_static_layer_1_9 {
+	z-index: 19;
+}
+.mixpo_static_layer_2_0 {
+	z-index: 20;
+}
+.mixpo_static_layer_3_0 {
+	z-index: 30;
+}
+.mixpo_static_layer_3_4 {
+    z-index: 34;
+}
+.mixpo_static_layer_3_5 {
+	z-index: 35;
+}
+.mixpo_static_layer_3_6 {
+	z-index: 36;
+}
+.mixpo_static_layer_3_7 {
+	z-index: 37;
+}
+.mixpo_static_layer_3_9 {
+	z-index: 39;
+}
+.mixpo_fullscreen_z_hover {
+    -webkit-transform: translateZ(1px);
+    -moz-transform: translateZ(1px);
+    -o-transform: translateZ(1px);
+    transform: translateZ(1px);
+}
+.mixpo_static_layer_4_0 {
+	z-index: 40;
+}
+.mixpo_static_layer_4_2 {
+	z-index: 42;
+}
+.mixpo_static_layer_4_5 {
+	z-index: 45;
+}
+.mixpo_static_layer_4_8 {
+	z-index: 48;
+}
+.mixpo_static_layer_4_9 {
+	z-index: 49;
+}
+.mixpo_static_layer_5_0 {
+	z-index: 50;
+}
+.mixpo_static_layer_6_0 {
+	z-index: 60;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control {
+	position                   : absolute;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-border-radius      : 0;
+	border                     : 0;
+	margin                     : 0;
+	padding                    : 0;
+	word-wrap                  : normal;
+	
+}
+.mixpo_static_overlay,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_overlay,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_text_overlay {
+	
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_video_overlay {
+	
+}
+.mixpo_static_invisible {
+	visibility: hidden;
+}
+ul.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control {
+	top         : 15%;
+	color       : white;
+	font        : bold 11px Verdana;
+	text-align  : left;
+	padding-left: 25px;
+	margin-right: 3px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_caption {
+	width      : 100%;
+	color      : white;
+	font       : bold 11px Verdana;
+	text-align : center;
+	padding-top: 2px;
+	word-wrap  : break-word;
+	overflow   : visible
+}
+div.mixpo6de86e4b-8a14-4807-b8ac-db640fae71e8_icon {
+	text-align: center;
+	overflow  : visible;
+	z-index: 100; 
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_menu_item {
+	overflow: visible;    
+}
+img.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_canvas_background {
+	max-width: 100%;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.mixpo_static_expansion_preloader {
+	position: relative;
+	background-color: rgba( 255, 255, 255, 0.5 );
+	display: block;
+	pointer-events: none;
+	
+}
+.mixpo_disable_scrolling {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.mixpo_static_invisible,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_ignore_clicks,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_form,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_icons_info_menu,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_panel_mask {
+	pointer-events: none;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_form_window,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_text_info_menu {
+	pointer-events: auto;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_play_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_restart_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_postroll_restart_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_invisible_cta,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_continue_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_expand_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_cta,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_show_pointer,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_show_pointer * {
+    cursor: pointer !important;
+}
+ul.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	list-style-type: none;
+	margin         : 10px 0 0 0;
+	padding        : 0 10px;
+    width          : 100%;
+    box-sizing     : border-box;
+}
+span.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	font-size: 12px;
+	color    : black;
+}
+li.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	position  : relative;
+	list-style: none;
+	background: none;
+	padding   : 0 6px;
+    margin-bottom: 3px;
+    width     : auto;
+    min-height: 27px;
+}
+li.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control {
+	margin-top: 10px;
+	position  : relative;
+	list-style: disc;
+	background: none;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	border               : 1px solid #D2D2D2;
+	background-color     : rgba(255,255,255,0.95);
+	overflow             : hidden;
+	-webkit-border-radius: 0;
+    -webkit-box-sizing   : border-box;
+    -moz-box-sizing      : border-box;
+    box-sizing           : border-box;
+    padding              : 7px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_disclaimer {
+	color       : #c62300;
+	font        : 8px Verdana;
+    display     : block;
+    position    : relative;
+    float       : left;
+    margin-left : 15px;
+    margin-top  : 7px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_disclaimer_mobile_alert {
+    color       : #c62300;
+    font        : 9px Verdana;
+    display     : block;
+    position    : absolute;
+    left        : 22px;
+    right       : 22px;
+    bottom      : 11px;
+    line-height : 13px;
+}
+ul li.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form span:first-child {
+    color: #c62300;
+    font: 14px Verdana;
+    position: absolute;
+    top: 6px;
+    display: block;
+}
+a.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	color          : #009fff;
+	font           : 10px Verdana;
+	text-decoration: underline;
+	background     : none;
+	cursor         : pointer;
+}
+a.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_privacy {
+    float: left;
+    position: relative;
+    left: 16px;
+    margin-top: 7px;
+    letter-spacing: -1px;
+}
+a.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_privacy_mobile_alert {
+    float: none;
+    position: absolute;
+    left: 23px;
+    margin-top: 7px;
+    letter-spacing: -1px;
+    bottom: 64px;
+}
+img.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	width : 60px;
+	height: 60px;
+	margin: 15px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_title {
+    position  : relative;
+	color     : black;
+	font      : bold 14px Verdana;
+	text-align: left;
+	padding   : 0 6px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_input input[type="text"],
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_input input[type="tel"] {
+    position        : relative;
+    display         : block;
+	border          : 1px solid #AAAAAA;
+	font            : 16px Verdana;
+    margin          : 0;
+	padding         : 3px 6px;
+	color           : #cccccc;
+	background-color: white;
+	z-index         : 30;
+    width           : 100%;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_input {
+    position        : absolute;
+    display         : block;
+    margin          : 3px -1px;
+    z-index         : 30;
+    width           : auto;
+    right           : 4px;
+    left            : 18px;
+    overflow        : hidden;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_combo select {
+    position        : relative;
+    display         : block;
+    border          : 1px solid #AAAAAA;
+    font            : 16px Verdana;
+    margin          : 0;
+    padding         : 3px 6px;
+    color           : black;
+    background-color: white;
+    box-sizing      : border-box;
+    border-radius   : 0;
+    width           : 100%;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_combo select > option {
+    position        : relative;
+    display         : block;
+    border          : 1px solid #AAAAAA;
+    font            : 16px Verdana;
+    margin          : 0;
+    padding         : 3px 6px;
+    color           : black;
+    background-color: white;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_combo select > option:disabled {
+    color           : black;
+    background-color: white;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_combo {
+    position        : absolute;
+    display         : block;
+    margin          : 3px -1px;
+    z-index         : 30;
+    width           : auto;
+    right           : 4px;
+    left            : 18px;
+    overflow        : hidden;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_pick_timezone {
+    position        : absolute;
+    display         : block;
+    margin          : 1px 0;
+    z-index         : 30;
+    width           : 130px;
+    right           : 24px;
+    overflow        : hidden;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_pick_timezone select {
+    position        : relative;
+    display         : block;
+    border          : 1px solid #AAAAAA;
+    font            : 16px Verdana;
+    margin          : 0;
+    padding         : 3px 6px;
+    color           : black;
+    background-color: white;
+    box-sizing      : border-box;
+    border-radius   : 0;
+    width           : 130px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_pick_timezone select > option {
+    position        : relative;
+    display         : block;
+    border          : 1px solid #AAAAAA;
+    font            : 11px Verdana;
+    margin          : 0;
+    padding         : 3px 6px;
+    color           : black;
+    background-color: white;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_pick_timezone select > option:disabled {
+    color           : black;
+    background-color: white;
+}
+span.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_date_mobile_alert {
+    font            : bold 11px Verdana;
+    position        : absolute;
+    left            : 5px;
+    top             : 6px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_textarea textarea {
+    position        : relative;
+    display         : block;
+    border          : 1px solid #AAAAAA;
+    font            : 16px Verdana;
+    padding         : 3px 6px;
+    color           : #cccccc;
+    background-color: white;
+    z-index         : 30;
+    width           : 100%;
+    box-sizing      : border-box;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_textarea {
+    position        : absolute;
+    display         : block;
+    margin          : 3px -1px;
+    z-index         : 30;
+    width           : auto;
+    right           : 4px;
+    left            : 18px;
+    overflow        : hidden;
+    box-sizing      : border-box;
+}
+li > span.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+    font            : 11px Verdana;
+    color           : black;
+    top             : 8px;
+    display         : block;
+    position        : absolute;
+}
+textarea.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form {
+	width           : 75%;
+	font            : 12px Verdana;
+	border          : 1px solid #AAAAAA;
+	padding         : 5px;
+	resize          : none;
+	color           : #cccccc;
+	background-color: white;
+}
+span.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_title {
+    position        : absolute;
+    margin          : 0;
+    padding         : 0;
+    top             : 8px;
+    left            : 13px;
+    letter-spacing  : 0.5px;
+    font            : bold 13px Verdana;
+    color           : #626262;
+    display         : block;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_message_box {
+    position        : absolute;
+    margin          : 0;
+    padding         : 0;
+    top             : 39px;
+    left            : 62px;
+    right           : 21px;
+    height          : 41px;
+    color           : black;
+    display         : block;
+    overflow        : visible;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_message_box > div {
+    position        : relative;
+    display         : inline-block;
+    width           : 0;
+    height          : 100%;
+    margin          : 0;
+    padding         : 0;
+    box-sizing      : border-box;
+    vertical-align  : middle;
+}
+span.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_message {
+    position        : relative;
+    display         : inline-block;
+    margin          : 0;
+    padding         : 0;
+    width           : 100%;
+    height          : auto;
+    text-align      : center;
+    letter-spacing  : 0.4px;
+    box-sizing      : border-box;
+    font            : 10px Verdana;
+    color           : black;
+    vertical-align  : middle;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_icon {
+    position        : absolute;
+    left            : 20px;
+    top             : 44px;
+    width           : 31px;
+    height          : 31px;
+    border-radius   : 16px;
+    background-color: #cc0000;
+    font            : bold 32px "Arial Black";
+    color           : white;
+    text-align      : center;
+    line-height     : 30px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_alert_bg {
+	position        : absolute;
+	left            : 0;
+	top             : 0;
+	width           : 100%;
+	height          : 100%;
+	background-color: rgba(128,128,128,0.75);
+	border-radius   : 0;
+	padding         : 0;
+	text-align      : center
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_alert {
+    position        : absolute;
+    background-color: white;
+    border-radius   : 0;
+    font            : 12px Verdana;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_close_button {
+    width           : 76px;
+    height          : 23px;
+    margin-left     : -38px;
+    left            : 50%;
+    bottom          : 9px;
+    background-color: #D2D2D2;
+    box-sizing      : border-box;
+    box-shadow      : 1.5px 1.5px 1px #7D7D7D;
+    display         : block;
+    border-radius   : 8px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_alert_close_button span {
+    position        : relative;
+    display         : block;
+    width           : 74px;
+    height          : 21px;
+    font            : 12px Verdana;
+    padding         : 3px 13px;
+    letter-spacing  : 1px;
+    border-radius   : 6px;
+    margin          : 1px;
+    box-sizing      : border-box;
+    color           : white;
+    text-align      : center;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_mobile_alert,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2_mobile_alert {
+    background-color: #D2D2D2;
+    box-sizing      : border-box;
+    box-shadow      : 1px 1px 3px #7A7978;
+    display         : block;
+    border-radius   : 8px;
+    margin-top      : 4px;
+    cursor          : pointer;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_mobile_alert span,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2_mobile_alert span,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button span,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2 span {
+    position        : relative;
+    display         : block;
+    width           : auto;
+    height          : auto;
+    font            : bold 9px Verdana;
+    padding         : 5px 13px;
+    border-radius   : 6px;
+    margin          : 1px;
+    box-sizing      : border-box;
+    color           : white;
+    cursor          : pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_mobile_alert,
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2_mobile_alert {
+    position        : absolute;
+    bottom          : 57px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_mobile_alert {
+    right           : 99px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2_mobile_alert {
+    right           : 20px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button {
+    margin-right    : 7px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2 {
+    margin-right    : 13px;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button, div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2 {
+    position        : relative;
+    float           : right;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_body {
+    width           : 100%;
+    box-sizing      : border-box;
+    position        : relative;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_answer {
+    position        : relative;
+    display         : block;
+	margin          : 5px;
+    padding         : 1px;
+	border-radius   : 5px;
+    box-sizing      : border-box;
+    background      : #d2d2d2;
+    background      : -moz-linear-gradient(top, #d2d2d2 0%, #6d6d6d 100%);
+    background      : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d2d2), color-stop(100%,#6d6d6d));
+    background      : -webkit-linear-gradient(top, #d2d2d2 0%,#6d6d6d 100%);
+    background      : -o-linear-gradient(top, #d2d2d2 0%,#6d6d6d 100%);
+    background      : -ms-linear-gradient(top, #d2d2d2 0%,#6d6d6d 100%);
+    background      : linear-gradient(to bottom, #d2d2d2 0%,#6d6d6d 100%);
+    filter          : progid:DXImageTransform.Microsoft.gradient( startColorstr="#d2d2d2", endColorstr="#6d6d6d",GradientType=0 );
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_answer span {
+    position        : relative;
+    display         : block;
+    color           : black;
+    padding         : 3px 11px;
+    margin          : 0;
+    border-radius   : 3px;
+    box-sizing      : border-box;
+    font            : bold 11px Verdana;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_vote {
+	color           : black;
+	padding         : 3px;
+	margin          : 5px;
+	font            : bold 11px Verdana
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_radio_button {
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_button {
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_radio_button:hover {
+	background-color: rgba( 0, 0, 0, 0.1 );    
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_radio_button > input {
+	position: relative;
+	display: block;
+	margin-left: 0;
+	top: 20%;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_button > div,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_radio_button > div {
+	margin-left: 16px;
+	width: 80%;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_button > div:hover,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_survey_radio_button > div:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.mixpo_static_survey_results_title {
+	display: block;
+	text-align: center;
+	padding-left:  1em;
+	padding-right: 1em;
+	padding-top:    0.25em;
+	padding-bottom: 0.25em;
+	font-size: 0.9em;
+}
+.mixpo_static_survey_results_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	white-space: nowrap;
+}
+.mixpo_static_survey_results_row {
+	margin-bottom: 0.47em;
+	height: 1.53em;
+	overflow: visible;    
+	border-radius: 0.07em;
+	text-align: center;
+	line-height: 1.25em;
+	background-color: rgba( 0, 0, 0, 0.03 );
+	border: solid 1px rgba( 0, 0, 0, 0.05 );
+	font-size: 0.85em;
+}
+.mixpo_static_survey_results_row_title {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: left;
+	overflow: hidden;    
+	padding-top: 0.25em;
+	padding-left: 1em;
+}
+.mixpo_static_survey_results_row_bar {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	width: 0;
+	height: 100%;
+	font-size: 0.80em;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 9px rgba( 0, 0, 0, 0.5 );
+	padding-top: 0.25em;
+}
+div.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_twitter {
+	position: absolute;
+	left:     0;
+	top:      0;
+	color                      : white;
+	width                      : 80%;
+	height                     : 90%;
+	margin-left                : 15%;
+	margin-top                 : 2%;
+	text-shadow                : 1px 1px 1px #666666;
+	font-family                : Arial;
+	font-weight                : normal;
+	overflow                   : hidden;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 1s;
+	opacity                    : 0;
+}
+u.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_twitter {
+	color:#c0e7f3
+}
+img.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_twitter_icon {
+	position: absolute;
+	top:     0;
+	left:    0;
+	margin:  2px;
+	width:  12%;
+}
+img.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_panel_background_centered {
+	width:  100%;
+	height: 100%;
+}
+img.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_panel_background_stretched {
+	width:  100%;
+	height: 100%;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_panel_overlay {
+	
+}
+
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_custom_close {
+	z-index: 39;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_video,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_video_overlay,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_play_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_scrubber,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_restart_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_postroll_restart_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_cta,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_invisible_cta,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_startframe,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_display_ad_startframe,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_canvas_start_frame,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_background,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_player_background,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_continue_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_expand_button,
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_button {
+	-webkit-user-select: none;
+	-webkit-user-drag:   none;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_csr_video_click {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_logo_div {
+	position:    absolute;
+	left:        -200px;
+	width:       200px;
+	height:      250px;
+	background:  #000000;
+	overflow:    visible;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_logo_message {
+	text-align:     center;
+	vertical-align: middle;
+	overflow:       hidden;
+	margin:         10px;
+	right: 0;
+	width: 90%;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_logo_image {
+	max-width: 100%;
+	vertical-align: middle;
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_left {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX( -2000px );
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_right {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX( +2000px );
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_top {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY( -2000px );
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_bottom {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY( +2000px );
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_left {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX( 0 );
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX( -2000px );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_right {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX( 0 );
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX( +2000px );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_top {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY( 0 );
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY( -2000px );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_bottom {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY( 0 );
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY( +2000px );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_left {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate( -1080deg ) translateX( -200% );
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: rotate( 0deg ) translateX( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_right {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate( -1080deg ) translateX( 200% );
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: rotate( 0deg ) translateX( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_top {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate( -1080deg ) translateY( -200% );
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: rotate( 0deg ) translateY( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_bottom {
+	0% {
+		opacity: 0;
+		-webkit-transform: rotate( -1080deg ) translateY( 200% );
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: rotate( 0deg ) translateY( 0 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_left {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX( 0 ) rotate( 0deg );
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX( -200% ) rotate( -1080deg );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_right {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX( 0 ) rotate( 0deg );
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX( +200% ) rotate( -1080deg );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_top {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY( 0 ) rotate( 0deg );
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY( -200% ) rotate( -1080deg );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_bottom {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY( 0 ) rotate( 0deg );
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY( +200% ) rotate( -1080deg );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_fade_in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_fade_out {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_grow {
+	0% {
+		-webkit-transform: scale( 0 );
+	}
+	100% {
+		-webkit-transform: scale( 1 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_shrink {
+	0% {
+		-webkit-transform: scale( 1 );
+	}
+	100% {
+		-webkit-transform: scale( 0 );
+	}
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animated {
+	
+		-webkit-animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+	
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_in_left {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_left;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_in_right {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_right;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_in_top {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_top;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_in_bottom {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_in_from_the_bottom;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_out_left {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_left;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_out_right {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_right;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_out_top {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_top;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_slide_out_bottom {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_move_out_to_the_bottom;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_in_left {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_left;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_in_right {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_right;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_in_top {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_top;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_in_bottom {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_in_from_the_bottom;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_out_left {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_left;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_out_right {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_right;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_out_top {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_top;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_roll_out_bottom {
+	-webkit-animation: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_roll_out_to_the_bottom;
+	-webkit-animation-duration: 1s,1s;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_fade_in {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_fade_in;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_fade_out {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_fade_out;
+	pointer-events: none;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_grow_in {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_grow;
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_shrink_out {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_shrink;
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_fade_animation_for_cta {
+	0% {
+		opacity: 0.9;
+	}
+	70% {
+		opacity: 0.6;
+	}
+	75% {
+		opacity: 0.7;
+	}
+	100% {
+		opacity: 0.9;
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_for_cta {
+	0% {
+		-webkit-transform: scale( 1 );
+	}
+	25% {
+		-webkit-transform: scale( 0.75 );
+	}
+	50% {
+		-webkit-transform: scale( 0.85 );
+	}
+	85% {
+		-webkit-transform: scale( 0.6 );
+	}
+	100% {
+		-webkit-transform: scale( 1 );
+	}
+}
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_for_spinner {
+	0% {
+		-webkit-transform: rotate( 0 );
+	}
+	100% {
+		-webkit-transform: rotate( -360deg );
+	}
+}
+.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animated_spinner {
+	-webkit-animation-name: mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animation_for_spinner;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+} 
+@-webkit-keyframes mixpo_spinner_spin1 {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
+} 
+@-webkit-keyframes mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_glow_effect {
+	from { 
+		-webkit-box-shadow: 0 0 0 #ffffff;
+	}
+	10% { 
+		-webkit-box-shadow: 0 0 36px #ffffff;
+	}
+	20% { 
+		-webkit-box-shadow: 0 0 0 #ffffff;
+	}
+}
+canvas.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_continue_button,
+canvas.mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_expand_button {
+	
+		-webkit-animation-name:            mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_glow_effect;
+		-webkit-animation-duration:        6s;
+		-webkit-animation-iteration-count: infinite;
+	
+}
+.mixpo_static_lazy_video_preload_button {
+	z-index: 4;
+}
+.mixpo_static_lazy_video_spinner {
+	z-index: 4;
+}
+img.mixpo_static_lazy_video_poster {
+	z-index:  3;
+    width:    100%;
+	height:   100%;
+    position: absolute;
+    display:  block;
+}
+video.mixpo_static_lazy_video {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+}
+div.mixpo_static_lazy_video_background {
+	z-index:          1;
+	position:         absolute;
+	background-color: black;
+}
+</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+<body>
+<div id="bd" class="signin clearfix">
+		<div id="left">    <style type="text/css">#ad-block{width:300px;margin:0 0 0 auto}#ad-wrapper{width:300px}#ads-info{font-size:10px;margin:9px 0 0 0;text-align:center}#ads-info a{margin-left:20px}#ads-info a.first{margin-left:0}</style>
+<div id="ad-block">
+<h2 id="ad-heading" class="screen-reader-text">Advertisement</h2>
+<div id="ad-wrapper">
+<!-- Start Mail ad tag -->
+<script type="text/javascript">
+(function() {
+var unknown_zip = "US:UNKNOWN",
+unknown_cid = "NONE";
+function matchKeys(keys) {
+var re = new RegExp('(?:' + keys.join('|') + ')=(?:\\"|%22)(.*?)(?:\\"|%22)');
+var matches = document.cookie.match(re);
+if (!matches) return null;
+return matches[1];
+}
+var flag_matches = document.cookie.match(/(?:adt_optout_flag)=(true|false)/);
+var optout = (flag_matches && flag_matches[1] == "true");
+window.f_ADTARGET_ZIP = (function() {
+if (optout) return unknown_zip;
+var zip = matchKeys(['adt_zip']);
+if (!zip) return unknown_zip;
+return "US:" + zip;
+})();
+window.f_AM_CID = (function() {
+if (optout) return unknown_cid;
+var cid = matchKeys(['amcid']);
+if (!cid) return unknown_cid;
+cid = unescape(cid);
+return cid.replace(",","&am=");
+})();
+window.f_ENABLE_ADTARGETING = true;
+})();
+</script>
+
+<script type="text/javascript">
+var crtg_nid = '2528';
+var crtg_cookiename = 'crtg_comcast';
+var crtg_varname = 'crtg_content';
+function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);} }return'';}
+var crtg_content = crtg_getCookie(crtg_cookiename);
+var crtg_rnd=Math.floor(Math.random()*99999999999);
+(function(){
+var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+crtg_url +='&cookieName='+escape(crtg_cookiename);
+crtg_url +='&rnd='+crtg_rnd;
+crtg_url +='&varName=' + escape(crtg_varname);
+var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);
+else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+})();
+</script>
+
+<script type="text/javascript">
+quantSegs='';
+function qc_results(result) {
+for (var i = 0; i < result.segments.length; i++)
+{
+quantSegs += "&qsg=" + result.segments[i].id;
+}
+}
+</script>
+
+<script type="text/javascript" src="//pixel.quantserve.com/api/segments.json?a=p-9eJ8k4iSzux46&amp;callback=qc_results&amp;ttl=86400"></script>
+
+<script type="text/javascript">
+// <![CDATA[
+var _vdlg = _vdlg || {};
+_vdlg.comcastOASAudiences = '';
+_vdlg.comcastOASCallback = function(userData) {
+  if(userData && userData.status === 0 && userData.user.audiences) {
+
+    if(typeof userData.user.audiences === 'string') {
+      var codes = userData.user.audiences.split(',');
+      for (var i = 0; i < codes.length; i++) {
+          _vdlg.comcastOASAudiences += "&vidaud=" + codes[i].trim();
+      }
+    }
+    else {
+      for (var i = 0; i < userData.user.audiences.length; i++) {
+        _vdlg.comcastOASAudiences += "&vidaud=" + userData.user.audiences[i].code;
+      }
+    }
+  }
+};
+// ]]>
+</script>
+<script type="text/javascript" src="//dmp.tidaltv.com/audience/browser/data.json?a=ea88754cd14d442091b4a4ae31437756&amp;callback=_vdlg.comcastOASCallback"></script>
+
+<script type="text/javascript">
+// <![CDATA[
+var opts = [];
+if (typeof f_ADTARGET_ZIP != 'undefined')
+opts.push('_OAS_GEO_OVERRIDE_=' + f_ADTARGET_ZIP);
+if (typeof f_AM_CID != 'undefined')
+opts.push('am=' + f_AM_CID.split(',').join('&am='));
+if (typeof quantSegs != 'undefined')
+opts.push(quantSegs.slice(1));
+if (typeof _vdlg != 'undefined' && _vdlg.comcastOASAudiences) {
+opts.push(_vdlg.comcastOASAudiences.slice(1));
+}
+if (typeof crtg_content != 'undefined') {
+opts.push(crtg_content);
+}
+if (location.search.indexOf('AdParam') != -1) {
+opts.push('AdParam='+location.search.slice(9));
+}
+OAS_query = opts.join('&');
+OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+// ]]>
+</script>
+
+<script type="text/javascript">
+OAS_type = 'jx'; //jx or mjx
+OAS_sitepage = 'comcast.net/login_secure/notve';
+OAS_listpos = 'x32';
+
+var first_time="ftu";
+if
+    (document.cookie.indexOf("prefs") >= 0) {first_time="normal";};
+if
+    (document.referrer.search('tt2')==-1) {first_time="normal";};
+document.write('<script type="text/javascript" src=\"//oascentral.comcast.net/RealMedia/ads/adstream_' + OAS_type + '.ads/' + OAS_sitepage + '/1' + OAS_rns +'@' + OAS_listpos + '?target=' + first_time + '&' + OAS_query + '\" ></scr' + 'ipt>');
+</script><script type="text/javascript" src="//oascentral.comcast.net/RealMedia/ads/adstream_jx.ads/comcast.net/login_secure/notve/1525974950@x32?target=normal&amp;_OAS_GEO_OVERRIDE_=US:UNKNOWN&amp;am=NONE&amp;qsg=D&amp;"></script><style type="text/css">
+
+html {background: none repeat scroll 0 0 transparent !important;}
+
+body{
+background-image:
+url(https://cdn.oas-c18.adnxs.com/RealMedia/ads/Creatives/Comcast/595666-1_136629_Kia_201609_SIG_1400_PHL_RB/KiaTemplatePHL75304417535144.jpg/1474398289);
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position: center top;
+background-color: #Ffffff;
+margin: 0px;
+}
+
+
+#left {border-right: 0px;}
+
+#ads-info {bottom: 83px; position: static; z-index: 677; margin-top: 525px;}
+
+#right {border-left: 0px;}
+
+</style>
+
+<script type="text/javascript">var mixpoAd={width:300,height:250,guid:"6de86e4b-8a14-4807-b8ac-db640fae71e8",prerender:"//swf.mixpo.com/containers/www/6d/6de86e4b-8a14-4807-b8ac-db640fae71e8/prerenders/300x250.jpg",clickthrough:"http://www.philadelphia.kiadealers.com",subdomain:"www",embedv:"master:23a3e2e-v5.0.10.0-oajs",clicktag:"https://oascentral.comcast.net/RealMedia/ads/click_lx.ads/comcast.net/login_secure/notve/L30/1727724321/x32/Comcast/595666-1_136629_Kia_201609_SIG_1400_PHL_RB/7530441.html/52466371626c666866355941412f6f67;zip=US:19133?"};</script><script type="text/javascript" src="//swf.mixpo.com/js/loader.js"></script><div id="mixpoPID72530" style="display: block; width: 300px; height: 250px; pointer-events: auto;"><div id="mixpoPID72530_ex" class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" style="width: 300px; height: 250px; position: relative; overflow: hidden; left: 0px; top: 0px;"><img src="https://swf.mixpo.com/containers/www/6d/6de86e4b-8a14-4807-b8ac-db640fae71e8/prerenders/300x250-nocontrols.jpg" class="mixpo_static_layer_1_0" style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; display: block; visibility: hidden;" /><div class="mixpo_static_layer_1_5 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_spinner " style="position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; display: none;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="300" height="250" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><img class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animated mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_fade_in mixpo_static_layer_2_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_startframe " width="300" height="250" src="https://swf.mixpo.com/containers/www/6d/6de86e4b-8a14-4807-b8ac-db640fae71e8/prerenders/300x250-nocontrols.jpg" style="position: absolute; left: 0px; top: 0px; width: 300px; height: 250px; display: block;" /><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_animated mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_fade_in mixpo_static_layer_3_9 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_cta " style="position: absolute; display: block; left: 100px; top: 75px; width: 100px; height: 100px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="100" height="100" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_1_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_logo_div " style="position: absolute; display: none;"></div><div id="mixpoPID72530_ex_pl" style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute;"><video class="mixpo_static_layer_1_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_video " webkit-playsinline="true" preload="false" width="300" height="250" style="position: absolute; background-color: black; visibility: hidden; left: 0px !important; top: 0px !important; width: 300px !important; height: 250px !important;"></video><div class="mixpo_static_layer_0_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_player_background " style="position: absolute; background-color: black; left: 0px; top: 0px; width: 300px; height: 250px;"></div><div class="mixpo_static_layer_0_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_scratchpad " style="position: absolute; color: transparent; left: 285px; top: 238px; width: 15px; height: 13px;"></div><div class="mixpo_static_layer_0_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_background " style="position: absolute; color: black; left: 0px; top: 0px; width: 300px; height: 250px;"></div><div class="mixpo_static_layer_1_5 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_video_overlay " style="position: absolute; left: 0px; top: 0px; width: 300px; height: 250px;"></div><div class="mixpo_static_layer_3_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_ad " style="position: absolute; left: 0px; top: 0px; width: 300px; height: 250px;"></div><div class="mixpo_static_overlay mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_overlay mixpo_static_layer_3_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_show_pointer mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_textoverlay_0 " style="position: absolute; display: none; left: 90px; top: 4px; width: 116px; height: 21px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="116" height="21" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_5 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_mute_button " style="position: absolute; left: 243px; top: 208px; width: 57px; height: 43px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="57" height="43" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_5 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_play_button " style="position: absolute; left: 0px; top: 208px; width: 57px; height: 43px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="57" height="43" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_5 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_scrubber " style="position: absolute; left: 57px; top: 208px; width: 186px; height: 43px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="186" height="43" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_5 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_button " style="position: absolute; left: 0px; top: 0px; width: 48px; height: 32px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="48" height="32" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_6 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_continue_button " style="position: absolute; display: none; left: 90px; top: 113px; width: 121px; height: 25px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="121" height="25" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_7 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_menu mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_icons_info_menu" style="position: absolute; background-color: rgba(0, 0, 0, 0.498039); display: none; left: 0px; top: 0px; width: 300px; height: 250px;"></div><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_menu_item mixpo_static_layer_3_7 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control " style="position: absolute; display: none; left: 45px; top: 88px; width: 90px; height: 75px;"><center><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_svg"><!--?xml version="1.0" encoding="utf-8"?--><!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" width="54" height="45" viewBox="0 0 208.05 207.95" enable-background="new 0 0 208.05 207.95" xml:space="preserve">
+<symbol id="FlashAICB_x2F_Layer_1_x2F__x3C_Clip_Group_0_x3E__x5F_1" viewBox="-32.95 -147.3 187.85 189.4">
+	<g id="Layer_1_3_">
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M113.1-77c-0.767,2.333-1.667,4.083-2.7,5.25c-2.6,2.8-6.583,6.817-11.95,12.05     c-0.5,0.467-1.967,1.967-4.4,4.5c-2,2-3.517,3.367-4.55,4.1c-3.867,2.867-8.033,4.45-12.5,4.75c-1.7,0.133-3.2,0.133-4.5,0     c-2.333-0.233-4.283-0.667-5.85-1.3c0.067,0.4,0.317,1.333,0.75,2.8c0.333,1.533,0.5,2.633,0.5,3.3v4.25     c0,1.667-0.816,4.6-2.45,8.8c-0.8,1.933-2.367,4.117-4.7,6.55c-2.933,2.9-5.067,5.017-6.4,6.35C48.45-9.533,44.5-5.617,42.5-3.85     c-1.333,1.2-3.367,2.184-6.1,2.95c-0.6,0.167-1.7,0.367-3.3,0.6C31.5-0.1,30.333,0,29.6,0l-2.4-0.05L24-0.65     c-2.333-0.4-5.067-2.233-8.2-5.5c-1.133-1.2-3.333-3.4-6.6-6.6c-2.8-2.7-4.917-4.883-6.35-6.55c-0.333-0.434-0.7-1.067-1.1-1.9     L1-23.1c-0.233-0.667-0.433-1.667-0.6-3c-0.167-1.233-0.25-2.333-0.25-3.3c0-3.167,0.533-6.15,1.6-8.95     c0.667-1.767,1.367-3.033,2.1-3.8c4.8-5.333,11.667-12.167,20.6-20.5c0.867-0.8,2.3-1.7,4.3-2.7c3.367-1.633,7-2.45,10.9-2.45     c2.233,0,4.467,0.3,6.7,0.9c0.267,0.033,0.583,0.15,0.95,0.35l0.4,0.15h0.1c-0.9-2.5-1.35-5.25-1.35-8.25     c0-3.4,0.816-7.017,2.45-10.85c0.8-1.867,2.383-4.067,4.75-6.6c1.434-1.566,3.533-3.633,6.3-6.2     c0.767-0.767,2.033-2.083,3.8-3.95s3.117-3.267,4.05-4.2c3.233-3.3,5.95-5.316,8.15-6.05c3.033-1.067,5.983-1.6,8.85-1.6     c3,0,5.55,0.45,7.65,1.35c1.333,0.533,2.367,1.15,3.1,1.85c3.6,3.367,7.817,7.566,12.65,12.6l2.35,2.4     c0.9,0.967,1.517,1.8,1.85,2.5c0.8,2,1.317,3.517,1.55,4.55c0.2,1.033,0.3,2.45,0.3,4.25C114.25-81.933,113.867-79.4,113.1-77z      M97.3-86.5c-0.667-0.967-1.417-1.833-2.25-2.6l-2.7-2.65c-1.434-1.467-2.533-2.583-3.3-3.35c-1.3-1.367-2.383-2.183-3.25-2.45     l-1.25-0.4c-0.6-0.133-0.983-0.2-1.15-0.2c-0.566,0-1.233,0.133-2,0.4c-0.8,0.267-1.383,0.567-1.75,0.9     c-4.467,4.233-9.733,9.367-15.8,15.4c-6.9,6.934-12.067,12.117-15.5,15.55l-30.6,30.8c-0.233,0.233-0.567,0.9-1,2     s-0.65,1.85-0.65,2.25c0,0.267,0.066,0.684,0.2,1.25c0.167,0.733,0.383,1.3,0.65,1.7c0.9,1.467,2.433,3.25,4.6,5.35     c1.2,1.2,3.034,2.917,5.5,5.15c0.434,0.4,0.967,0.683,1.6,0.85l1.6,0.6h1.35c0.533,0,1.2-0.216,2-0.65     c1.167-0.566,2.733-1.833,4.7-3.8l4.7-4.9c3.1-2.967,7.75-7.583,13.95-13.85l17.95-17.9c4.667-4.733,11.783-11.9,21.35-21.5     c1.367-1.4,2.05-2.95,2.05-4.65C98.3-84.367,97.967-85.467,97.3-86.5z M77.8-64.65c-4.5,4.633-7.883,8.1-10.15,10.4     c-3.933,3.967-7.4,7.35-10.4,10.15c-1.033,1-2.283,2.3-3.75,3.9c-1.467,1.567-2.483,2.617-3.05,3.15     c-2.133,1.966-4.3,2.95-6.5,2.95c-1.8,0-3.083-0.3-3.85-0.9c-2.567-2-4.267-3.583-5.1-4.75c-1-1.367-1.5-2.967-1.5-4.8     c0-2.067,0.467-3.583,1.4-4.55c9.633-10.1,17-17.517,22.1-22.25c1.1-1.033,2.367-2.316,3.8-3.85c1.4-1.5,2.35-2.483,2.85-2.95     c0.934-0.9,1.833-1.533,2.7-1.9c0.967-0.467,2.083-0.7,3.35-0.7c1.867,0,3.283,0.4,4.25,1.2c2.3,1.9,3.867,3.433,4.7,4.6     c1,1.4,1.5,2.917,1.5,4.55c0,1.566-0.35,2.9-1.05,4C78.633-65.633,78.2-65.05,77.8-64.65z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_" overflow="visible"/>
+		</clipPath>
+		<g id="Layer_3_1_" clip-path="url(#SVGID_2_)">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="14.6226" y1="-6.2524" x2="107.2036" y2="-98.8229">
+				<stop offset="0" style="stop-color:#3C3C3C"/>
+				<stop offset="0.451" style="stop-color:#40443C"/>
+				<stop offset="1" style="stop-color:#3C4039"/>
+			</linearGradient>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" points="59.25,-147.3 -32.95,-54.35 62.7,42.1      154.9,-50.85    "/>
+		</g>
+	</g>
+	<g id="Layer_4_1_">
+	</g>
+</symbol>
+<symbol id="FlashAICB_x2F_Layer_1_x2F__x3C_Path_x3E__x5F_1" viewBox="0 -57.8 168.35 57.8">
+	<g id="Layer_1_5_">
+		
+			<radialGradient id="SVGID_4_" cx="5944.7373" cy="3050.0049" r="109.9603" gradientTransform="matrix(0.8293 0.5588 0.5588 -0.8293 -6547.9912 -842.0986)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" style="stop-color:#FEF8E9;stop-opacity:0.2392"/>
+			<stop offset="0.6471" style="stop-color:#FEF8E9;stop-opacity:0.8471"/>
+			<stop offset="1" style="stop-color:#FEF8E9;stop-opacity:0"/>
+		</radialGradient>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_4_)" d="M168.35-42.55c0-4.233-1.5-7.833-4.5-10.8    c-2.967-2.967-6.567-4.45-10.8-4.45H15.3c-4.233,0-7.833,1.483-10.8,4.45c-3,2.967-4.5,6.567-4.5,10.8V0    c7.8-13.933,19.817-24.8,36.05-32.6c15.167-7.267,31.784-10.933,49.85-11c18.133-0.033,34.467,3.583,49,10.85    c15.633,7.767,26.783,18.683,33.45,32.75V-42.55z"/>
+	</g>
+</symbol>
+<symbol id="border" viewBox="0 -207.95 208.05 207.95">
+	<g id="Layer_1_7_">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#575C57" d="M196.6-30.2c0,4.933-1.9,9.3-5.7,13.1c-3.8,3.8-8.133,5.7-13,5.7    H30.15c-4.867,0-9.2-1.9-13-5.7c-3.8-3.8-5.7-8.167-5.7-13.1v-147.55c0-4.933,1.9-9.3,5.7-13.1c3.8-3.8,8.133-5.7,13-5.7H177.9    c4.867,0,9.2,1.9,13,5.7c3.8,3.8,5.7,8.167,5.7,13.1V-30.2z M199-9.05c6.033-6.067,9.05-13.117,9.05-21.15v-147.55    c0-8.033-3.017-15.083-9.05-21.15c-6.033-6.033-13.066-9.05-21.1-9.05H30.15c-8.033,0-15.066,3.017-21.1,9.05    C3.017-192.833,0-185.783,0-177.75V-30.2c0,8.033,3.017,15.083,9.05,21.15C15.083-3.017,22.117,0,30.15,0H177.9    C185.934,0,192.967-3.017,199-9.05z"/>
+	</g>
+</symbol>
+<symbol id="color" viewBox="0 -185.85 186.45 185.85">
+	<g id="Layer_1_2_">
+		<g>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M186.45-20.4v-145.05c0-5.633-1.983-10.45-5.95-14.45     c-3.967-3.967-8.767-5.95-14.4-5.95H20.35c-5.633,0-10.433,1.983-14.4,5.95c-3.967,4-5.95,8.816-5.95,14.45V-20.4     C0-14.767,1.983-9.95,5.95-5.95C9.917-1.983,14.716,0,20.35,0H166.1c5.633,0,10.434-1.983,14.4-5.95     C184.466-9.95,186.45-14.767,186.45-20.4z"/>
+		</g>
+	</g>
+</symbol>
+<symbol id="edge_x5F_contour" viewBox="0 -185.85 186.45 185.85">
+	<g id="Layer_1_8_">
+		<use xlink:href="#edge_x5F_gradient" width="186.45" height="185.85" y="-185.85" overflow="visible" opacity="0.25"/>
+	</g>
+</symbol>
+<symbol id="edge_x5F_gradient" viewBox="0 -185.85 186.45 185.85">
+	<g id="Layer_1_4_">
+		<g>
+			<radialGradient id="SVGID_5_" cx="93.2251" cy="-92.9248" r="123.3332" gradientUnits="userSpaceOnUse">
+				<stop offset="0.6392" style="stop-color:#010101;stop-opacity:0"/>
+				<stop offset="1" style="stop-color:#000000;stop-opacity:0.498"/>
+			</radialGradient>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_5_)" d="M186.45-20.4v-145.05c0-5.633-1.983-10.45-5.95-14.45     c-3.967-3.967-8.767-5.95-14.4-5.95H20.35c-5.633,0-10.434,1.983-14.4,5.95c-3.967,4-5.95,8.816-5.95,14.45V-20.4     C0-14.767,1.983-9.95,5.95-5.95C9.917-1.983,14.717,0,20.35,0H166.1c5.633,0,10.433-1.983,14.4-5.95     C184.467-9.95,186.45-14.767,186.45-20.4z"/>
+		</g>
+	</g>
+</symbol>
+<symbol id="highlights" viewBox="-36 -168.149 241 204.149">
+	<g id="Layer_1_9_">
+		<g>
+			
+				<use xlink:href="#FlashAICB_x2F_Layer_1_x2F__x3C_Path_x3E__x5F_1" width="168.35" height="57.8" y="-57.8" transform="matrix(1 0 0 1 0 -110.3496)" overflow="visible" opacity="0.25" enable-background="new    "/>
+			<g opacity="0.3984" enable-background="new    ">
+				
+					<image overflow="visible" width="241" height="161" xlink:href="data:image/png;base64,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 AABJRU5ErkJggg==" transform="matrix(1 0 0 -1 -36 36)">
+				</image>
+			</g>
+		</g>
+	</g>
+</symbol>
+<symbol id="icon_x5F_link" viewBox="-16.15 -207.95 241 224.15">
+	<g id="Layer_1_10_">
+		
+			<use xlink:href="#color" width="186.45" height="185.85" id="color_1_" y="-185.85" transform="matrix(1 0 0 1 10.7998 -11.0498)" overflow="visible"/>
+		<g>
+			
+				<use xlink:href="#FlashAICB_x2F_Layer_1_x2F__x3C_Clip_Group_0_x3E__x5F_1" width="187.85" height="189.4" x="-32.95" y="-147.3" transform="matrix(1 0 0 1 46.8999 -44.8501)" overflow="visible"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#292929" stroke="#7F8381" stroke-width="1.3" stroke-miterlimit="3.86" d="     M160.7-128.1c0.3-5.5-0.883-9.6-3.55-12.3l-14.45-14.4c-2.667-2.667-6.75-3.867-12.25-3.6c-5.434,0.3-9.534,1.833-12.3,4.6     l-17.3,17.25c-3.434,3.434-5.633,7.5-6.6,12.2c-0.967,4.6-0.633,9.083,1,13.45L125.4-141c1.367-1.367,3-2.05,4.9-2.05     c1.934,0,3.567,0.684,4.9,2.05l8.15,8.15c1.367,1.333,2.05,2.967,2.05,4.9c0,1.9-0.683,3.533-2.05,4.9l-30.15,30.1     c4.4,1.633,8.9,1.967,13.5,1c4.7-0.967,8.767-3.167,12.2-6.6l17.25-17.25C158.917-118.534,160.433-122.633,160.7-128.1z      M51.2-63.3l14.45,14.45c2.667,2.667,6.767,3.85,12.3,3.55c5.433-0.267,9.517-1.783,12.25-4.55l17.25-17.25     c3.433-3.434,5.65-7.5,6.65-12.2c0.933-4.6,0.583-9.1-1.05-13.5l-30.1,30.15c-1.333,1.333-2.967,2-4.9,2     c-1.9,0-3.533-0.667-4.9-2L65-70.8c-1.333-1.367-2-3-2-4.9c0-1.933,0.667-3.567,2-4.9l30.1-30.15     c-4.367-1.633-8.85-1.967-13.45-1c-4.7,0.966-8.767,3.167-12.2,6.6L52.2-87.85c-2.767,2.733-4.3,6.816-4.6,12.25     C47.333-70.067,48.533-65.967,51.2-63.3z M96.15-81.35l28.45-28.5c1.467-1.434,2.2-3.167,2.2-5.2c0-2.066-0.733-3.816-2.2-5.25     l-2.7-2.75c-1.433-1.467-3.183-2.2-5.25-2.2c-2.033,0-3.783,0.733-5.25,2.2L82.95-94.6c-1.434,1.433-2.15,3.183-2.15,5.25     c0,2.033,0.717,3.783,2.15,5.25l2.75,2.75c1.466,1.433,3.216,2.15,5.25,2.15C92.983-79.2,94.717-79.917,96.15-81.35z"/>
+		</g>
+		
+			<use xlink:href="#edge_x5F_contour" width="186.45" height="185.85" y="-185.85" transform="matrix(1 0 0 1 10.7998 -11.0498)" overflow="visible"/>
+		
+			<use xlink:href="#highlights" width="241" height="204.149" x="-36" y="-168.149" transform="matrix(1 0 0 1 19.8501 -19.7998)" overflow="visible"/>
+		<use xlink:href="#border" width="208.05" height="207.95" y="-207.95" overflow="visible"/>
+	</g>
+</symbol>
+<use xlink:href="#icon_x5F_link" width="241" height="224.15" x="-16.15" y="-207.95" transform="matrix(1 0 0 -1 0 0)" overflow="visible"> </use>
+</svg></div><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_caption" style="font-size: 11px;">More Info</div></center><div style="width: 100%; height: 100%; top: 0px; left: 0px; position: absolute;"></div></div><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_menu_item mixpo_static_layer_3_7 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control " style="position: absolute; display: none; left: 165px; top: 88px; width: 90px; height: 75px;"><center><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_svg"><!--?xml version="1.0" encoding="utf-8"?--><!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" width="54" height="45" viewBox="0 0 208.05 207.95" enable-background="new 0 0 208.05 207.95" xml:space="preserve">
+<symbol id="FlashAICB_x2F_Layer_1_x2F__x3C_Clip_Group_0_x3E__x5F_3" viewBox="-3.25 -119.85 127.2 122.6">
+	<g id="Layer_1_3_">
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M118.7-39.85c-0.767,2.934-1.367,4.867-1.8,5.8c-1.6,3.433-2.883,5.933-3.85,7.5     c-2.633,4.033-5.683,7.583-9.15,10.65C95.867-8.8,86.55-4.05,75.95-1.65c-1.2,0.267-2.867,0.566-5,0.9     c-2.833,0.467-4.75,0.7-5.75,0.7H54.9c-1.333,0-3.7-0.3-7.1-0.9c-3-0.533-5.033-0.966-6.1-1.3c-3.534-1-6.55-2.033-9.05-3.1     c-6.5-2.933-12-6.45-16.5-10.55c-8.467-7.733-13.633-16.733-15.5-27C0.283-45,0.1-46.25,0.1-46.65V-54c0-1.367,0.333-3.4,1-6.1     c0.533-2.133,1.05-3.917,1.55-5.35C3.55-67.817,4.567-70,5.7-72c1.233-2.233,2.816-4.533,4.75-6.9c1.966-2.367,4.066-4.5,6.3-6.4     c3.833-3.267,7.967-6.017,12.4-8.25c3.5-1.767,7.6-3.4,12.3-4.9c-1.467-5.033-5.3-10.483-11.5-16.35c-0.1-0.1-0.133-0.2-0.1-0.3     c0.033-0.066,0.117-0.1,0.25-0.1h0.45c1.833,0.2,3.483,0.45,4.95,0.75c4.767,1,9.117,2.684,13.05,5.05     c2.3,1.467,4.2,2.85,5.7,4.15c2.1,2,3.667,3.433,4.7,4.3l7,0.25c3.867,0.467,6.7,0.883,8.5,1.25l0.15,0.1l0.1,0.1     c5.333,1.167,10.15,2.733,14.45,4.7c5.167,2.367,9.967,5.466,14.4,9.3c4,3.467,7.3,7.35,9.9,11.65     c2.367,3.833,4.066,7.8,5.1,11.9c0.934,4.034,1.4,6.583,1.4,7.65v7.4C119.95-45.317,119.533-43.05,118.7-39.85z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_" overflow="visible"/>
+		</clipPath>
+		<g id="Layer_3_1_" clip-path="url(#SVGID_2_)">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="60.3501" y1="2.75" x2="60.3501" y2="-119.8501">
+				<stop offset="0" style="stop-color:#3C3C3C"/>
+				<stop offset="0.451" style="stop-color:#40443C"/>
+				<stop offset="1" style="stop-color:#3C4039"/>
+			</linearGradient>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" points="123.95,2.75 123.95,-119.85 -3.25,-119.85      -3.25,2.75    "/>
+		</g>
+	</g>
+	<g id="Layer_4_1_">
+	</g>
+</symbol>
+<symbol id="FlashAICB_x2F_Layer_1_x2F__x3C_Path_x3E__x5F_1" viewBox="0 -57.8 168.35 57.8">
+	<g id="Layer_1_5_">
+		
+			<radialGradient id="SVGID_4_" cx="5944.7373" cy="3050.0049" r="109.9603" gradientTransform="matrix(0.8293 0.5588 0.5588 -0.8293 -6547.9912 -842.0986)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" style="stop-color:#FEF8E9;stop-opacity:0.2392"/>
+			<stop offset="0.6471" style="stop-color:#FEF8E9;stop-opacity:0.8471"/>
+			<stop offset="1" style="stop-color:#FEF8E9;stop-opacity:0"/>
+		</radialGradient>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_4_)" d="M168.35-42.55c0-4.233-1.5-7.833-4.5-10.8    c-2.967-2.967-6.567-4.45-10.8-4.45H15.3c-4.233,0-7.833,1.483-10.8,4.45c-3,2.967-4.5,6.567-4.5,10.8V0    c7.8-13.933,19.817-24.8,36.05-32.6c15.167-7.267,31.784-10.933,49.85-11c18.133-0.033,34.467,3.583,49,10.85    c15.633,7.767,26.783,18.683,33.45,32.75V-42.55z"/>
+	</g>
+</symbol>
+<symbol id="border" viewBox="0 -207.95 208.05 207.95">
+	<g id="Layer_1_7_">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#575C57" d="M196.6-30.2c0,4.933-1.9,9.3-5.7,13.1c-3.8,3.8-8.133,5.7-13,5.7    H30.15c-4.867,0-9.2-1.9-13-5.7c-3.8-3.8-5.7-8.167-5.7-13.1v-147.55c0-4.933,1.9-9.3,5.7-13.1c3.8-3.8,8.133-5.7,13-5.7H177.9    c4.867,0,9.2,1.9,13,5.7c3.8,3.8,5.7,8.167,5.7,13.1V-30.2z M199-9.05c6.033-6.067,9.05-13.117,9.05-21.15v-147.55    c0-8.033-3.017-15.083-9.05-21.15c-6.033-6.033-13.066-9.05-21.1-9.05H30.15c-8.033,0-15.066,3.017-21.1,9.05    C3.017-192.833,0-185.783,0-177.75V-30.2c0,8.033,3.017,15.083,9.05,21.15C15.083-3.017,22.117,0,30.15,0H177.9    C185.934,0,192.967-3.017,199-9.05z"/>
+	</g>
+</symbol>
+<symbol id="color" viewBox="0 -185.85 186.45 185.85">
+	<g id="Layer_1_2_">
+		<g>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M186.45-20.4v-145.05c0-5.633-1.983-10.45-5.95-14.45     c-3.967-3.967-8.767-5.95-14.4-5.95H20.35c-5.633,0-10.433,1.983-14.4,5.95c-3.967,4-5.95,8.816-5.95,14.45V-20.4     C0-14.767,1.983-9.95,5.95-5.95C9.917-1.983,14.716,0,20.35,0H166.1c5.633,0,10.434-1.983,14.4-5.95     C184.466-9.95,186.45-14.767,186.45-20.4z"/>
+		</g>
+	</g>
+</symbol>
+<symbol id="edge_x5F_contour" viewBox="0 -185.85 186.45 185.85">
+	<g id="Layer_1_8_">
+		<use xlink:href="#edge_x5F_gradient" width="186.45" height="185.85" y="-185.85" overflow="visible" opacity="0.25"/>
+	</g>
+</symbol>
+<symbol id="edge_x5F_gradient" viewBox="0 -185.85 186.45 185.85">
+	<g id="Layer_1_4_">
+		<g>
+			<radialGradient id="SVGID_5_" cx="93.2251" cy="-92.9248" r="123.3332" gradientUnits="userSpaceOnUse">
+				<stop offset="0.6392" style="stop-color:#010101;stop-opacity:0"/>
+				<stop offset="1" style="stop-color:#000000;stop-opacity:0.498"/>
+			</radialGradient>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_5_)" d="M186.45-20.4v-145.05c0-5.633-1.983-10.45-5.95-14.45     c-3.967-3.967-8.767-5.95-14.4-5.95H20.35c-5.633,0-10.434,1.983-14.4,5.95c-3.967,4-5.95,8.816-5.95,14.45V-20.4     C0-14.767,1.983-9.95,5.95-5.95C9.917-1.983,14.717,0,20.35,0H166.1c5.633,0,10.433-1.983,14.4-5.95     C184.467-9.95,186.45-14.767,186.45-20.4z"/>
+		</g>
+	</g>
+</symbol>
+<symbol id="highlights" viewBox="-36 -168.149 241 204.149">
+	<g id="Layer_1_9_">
+		<g>
+			
+				<use xlink:href="#FlashAICB_x2F_Layer_1_x2F__x3C_Path_x3E__x5F_1" width="168.35" height="57.8" y="-57.8" transform="matrix(1 0 0 1 0 -110.3496)" overflow="visible" opacity="0.25" enable-background="new    "/>
+			<g opacity="0.3984" enable-background="new    ">
+				
+					<image overflow="visible" width="241" height="161" xlink:href="data:image/png;base64,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 AABJRU5ErkJggg==" transform="matrix(1 0 0 -1 -36 36)">
+				</image>
+			</g>
+		</g>
+	</g>
+</symbol>
+<symbol id="icon_x5F_share" viewBox="-16.15 -207.95 241 224.15">
+	<g id="Layer_1_10_">
+		
+			<use xlink:href="#color" width="186.45" height="185.85" id="color_1_" y="-185.85" transform="matrix(1 0 0 1 10.7998 -11.0498)" overflow="visible"/>
+		<g>
+			
+				<use xlink:href="#FlashAICB_x2F_Layer_1_x2F__x3C_Clip_Group_0_x3E__x5F_3" width="127.2" height="122.6" x="-3.25" y="-119.85" transform="matrix(1 0 0 1 44.0498 -46.3501)" overflow="visible"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#292929" stroke="#7F8381" stroke-width="1.3" stroke-miterlimit="3.86" d="     M62.05-61.3c11.633,9.767,25.667,14.65,42.1,14.65c16.467,0,30.5-4.883,42.1-14.65c11.633-9.767,17.45-21.566,17.45-35.4     c0-13.8-5.817-25.583-17.45-35.35s-25.667-14.65-42.1-14.65h-1.45c-7.767-8.633-17.233-13.4-28.4-14.3     c6.267,5.733,10.15,11.283,11.65,16.65c-12.133,3.267-22.017,9.233-29.65,17.9c-7.8,8.8-11.7,18.717-11.7,29.75     C44.6-82.867,50.417-71.067,62.05-61.3z"/>
+		</g>
+		
+			<use xlink:href="#edge_x5F_contour" width="186.45" height="185.85" y="-185.85" transform="matrix(1 0 0 1 10.7998 -11.0498)" overflow="visible"/>
+		
+			<use xlink:href="#highlights" width="241" height="204.149" x="-36" y="-168.149" transform="matrix(1 0 0 1 19.8501 -19.7998)" overflow="visible"/>
+		<use xlink:href="#border" width="208.05" height="207.95" y="-207.95" overflow="visible"/>
+	</g>
+</symbol>
+<use xlink:href="#icon_x5F_share" width="241" height="224.15" x="-16.15" y="-207.95" transform="matrix(1 0 0 -1 0 0)" overflow="visible"> </use>
+</svg></div><div class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_caption" style="font-size: 11px;">Share</div></center><div style="width: 100%; height: 100%; top: 0px; left: 0px; position: absolute;"></div></div><div class="mixpo_static_layer_3_9 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_countdown_321 " style="position: absolute; display: none; background-color: rgba(255, 255, 255, 0.85098); min-width: 100px; left: 0px; top: 0px; width: 300px; height: 250px;"><img src="//swf.mixpo.com/img/spinner321.png" style="position: absolute; top: 50%; left: 50%; width: 50px; height: 50px; margin-left: -25px; margin-top: -25px; -webkit-animation: mixpo_spinner_spin1 2s linear infinite; animation: mixpo_spinner_spin1 2s linear infinite;" /><div style="position: absolute; top: 50%; left: 50%; width: 60px; height: 60px; margin-left: -30px; margin-top: -30px; text-align: center; vertical-align: middle; line-height: 60px; font-size: 30px; font-weight: bold;">3</div></div><div class="mixpo_static_layer_3_9 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_close_button " style="position: absolute; display: none; left: 225px; top: 0px; width: 75px; height: 32px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="75" height="32" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_3_9 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_postroll_restart_button " style="position: absolute; display: none; left: 252px; top: 203px; width: 48px; height: 48px;"><canvas class="mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control" width="48" height="48" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></canvas></div><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_form " style="position: absolute; display: none; left: 0px; top: 0px; width: 300px; height: 250px;"><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_info_form_window mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form" style="position: absolute; display: none; left: 0px; top: 0px; width: 300px; height: 250px;"><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_title mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_title"></div><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_body "></div><a class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_privacy mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form" target="_blank">Mixpo's Privacy Policy</a><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button_2 "><span></span></div><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_form_button "><span></span></div><div class="mixpo_static_layer_6_0 mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_control mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_disclaimer mixpo_6de86e4b-8a14-4807-b8ac-db640fae71e8_disclaimer">I understand I am providing my information to the advertiser.</div></div></div></div></div></div>
+       <noscript class="MOAT-comcastapn56341864860?moatClientLevel1=NCC-East_Kia_38846&amp;moatClientLevel2=Comcast/595666-1_136629_Kia_201609_SIG_1400_PHL_RB&amp;moatClientLevel3=7535144&amp;moatClientSlicer1=x32&amp;moatClientSlicer2=comcast.net/login_secure/notve/L30"></noscript>
+<script src="https://z.moatads.com/comcastapn56341864860/moatad.js#moatClientLevel1=NCC-East_Kia_38846&amp;moatClientLevel2=Comcast/595666-1_136629_Kia_201609_SIG_1400_PHL_RB&amp;moatClientLevel3=7535144&amp;moatClientSlicer1=x32&amp;moatClientSlicer2=comcast.net/login_secure/notve/L30" type="text/javascript"></script>
+<script>
+try{
+var x32adtag = "Comcast/595666-1_136629_Kia_201609_SIG_1400_PHL_RB".split("/")[1];
+var adtag_x32 = "camp_" + x32adtag + "_creativeId_7535144";
+}
+catch(e){}
+</script>
+     
+<!--End Mail ad tag -->
+
+</div>
+<div id="ads-info"><a class="first" href="http://www.comcast.net/adinformation" rel="default" target="_blank">Ad Info</a><a href="https://www.surveymonkey.com/s.aspx?sm=FyNNVDhj_2f2FNc2KVOHQ4eg_3d_3d" target="_blank">Ad Feedback</a></div>
+</div>
+</div>
+	<div id="right">
+		<div id="signin-box">
+	<form name="signin" action="https://login.comcast.net/login" method="post" onsubmit="return login.onSubmit()">
+	<div id="signin">
+		<h1 class="xfinity-logo">XFINITY</h1>
+		<div class="sign_in">
+					<h2>Sign In</h2>
+				</div>
+		<p id="error" class="error">The username and password entered do not match. Please try again.</p>
+		<label for="user" id="login_id_label">Email or username <span class="access-aid">The username and password entered do not match. Please re-enter username.</span></label>
+<input id="user" name="user" type="text" value="" maxlength="128" tabindex="1" />
+		<label for="passwd" id="password_label">Password <span class="access-aid">The username and password entered do not match. Please re-enter password.</span></label>
+		<input id="passwd" name="passwd" type="password" maxlength="128" tabindex="2" />
+		<div>
+		    <input type="checkbox" id="remember_me" value="1" tabindex="3" checked="" name="rm" />
+		<label id="rm_label" for="remember_me" title="Stay signed in.">Stay signed in.</label>
+		<a href="#" id="rm_label_learn_more" rel="#rm_help" tabindex="4" aria-label="Learn more about staying signed in">Learn more</a>
+		</div>
+<button type="submit" id="sign_in" tabindex="5">SIGN IN ►<span class="triange-right icon"></span></button>
+		<p class="fbor">or</p>
+		<p><a href="#" id="sign_in_fb" title="Connect using Facebook" onclick="fblogin()"><img src="/static/images/fb_btn.png" width="202" height="26" /></a></p>
+		<p class="fblearnmore">We value your privacy.
+		<a href="#" id="fb_learn_more_text" rel="#fb_learn_more_help" aria-label="Learn more about connecting through Facebook"><strong>Learn more</strong></a></p>
+
+<p class="forgot_link first"><a href="https://login.comcast.net/myaccount/lookup?continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D74181f9f-a7c0-4bbf-8d51-b47d1b2a481c%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D1&amp;lang=en" target="_self" title="Lookup User ID"><strong>Don't know your email or username?</strong></a></p>
+<p class="forgot_link"><a id="forgotPwdLink" href="https://login.comcast.net/myaccount/reset?continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D74181f9f-a7c0-4bbf-8d51-b47d1b2a481c%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D1&amp;lang=en" target="_self" title="Reset Password"><strong>Forgot your password?</strong></a></p>
+
+		<input type="hidden" name="reqId" value="74181f9f-a7c0-4bbf-8d51-b47d1b2a481c" />
+		<input type="hidden" name="deviceAuthn" value="false" />
+		<input type="hidden" name="s" value="oauth" />
+		<input type="hidden" name="forceAuthn" value="true" />
+		<input type="hidden" name="r" value="comcast.net" />
+		<input type="hidden" name="ipAddrAuthn" value="false" />
+		<input type="hidden" name="continue" value="https://login.comcast.net/oauth/authorize?client_id=home-xfinity-com&amp;response_type=code&amp;scope=https://login.comcast.net/api/login%20openid%20profile%20https://secure.api.comcast.net/homesecurity/cvr%23read%20urn%3Acsp%3Ascope%3Aself-help%3Aaccount%3Ainternet-devices%23read&amp;state=/&amp;redirect_uri=https://tps.home.xfinity.com/session/cima_oauth2redirect/&amp;prompt=login&amp;response=1" />
+		<input type="hidden" name="passive" value="false" />
+		<input type="hidden" name="client_id" value="home-xfinity-com" />
+		<input type="hidden" name="lang" value="en" />
+ 	</div>
+
+
+		<div id="needaccess">
+			<h2>Don't have a username?</h2>
+			<p class="action"><a href="https://login.comcast.net/myaccount/create-uid?continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D74181f9f-a7c0-4bbf-8d51-b47d1b2a481c%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D1&amp;lang=en" target="_self">Create one</a></p>
+		</div>
+		<div id="quick-bill-pay" class="action">
+			<h2>Don't want to sign in?</h2>
+			<p class="action"><a href="https://customer.xfinity.com/lite" target="_self">Quick bill pay</a></p>
+		</div>
+ 	</form>
+</div>
+
+<div id="rm_help" role="dialog" class="jq-overlay" aria-describedby="rm_help_descr"><a href="#" class="close"></a><div class="inner" id="rm_help_descr">
+<h2>Why Stay Signed In?</h2>
+<p>When you choose Remember Me on sign in, we will remember who you are and keep you signed in for up to 30 days unless you sign out.</p>
+<p>Please note: If you share your personal computer with others, they could access and make changes to your account. You should definitely not use this option in public computers.</p>
+</div></div>
+
+
+<div id="fb_learn_more_help" role="dialog" class="jq-overlay" aria-describedby="fb_learn_more_help_descr"><a href="#" class="close"></a><div class="inner" id="fb_learn_more_help_descr">
+<h1>Facebook Connect and Privacy</h1>
+<h3>Your Privacy is a Priority</h3>
+<p class="margin-popup">Facebook Connect allows you to use your Facebook credentials to login to certain portions of XFINITY TV and XFINITY.com.  Comcast does not send your Comcast account or billing information to Facebook as part of this connection process.  You can read more about which portions of XFINITY TV and XFINITY.com support Facebook Connect, <a href="http://customer.xfinity.com/help-and-support/internet/facebookconnect/" target="_blank">here</a>.</p>
+<h3>Added Security Delivers Peace of Mind</h3>
+<p class="margin-popup">Use of Facebook Connect will not allow access to sensitive information or features, including Comcast billing and account information, XFINITY Home or XFINITY Connect applications.  As an added security measure, you will need to sign in with your Comcast username and password to access this information.</p>
+<h3>Only With Your Permission</h3>
+<p class="margin-popup">Comcast will not post anything to your Facebook wall unless you give us permission to do so.</p>
+<h3>Facebook Email as Comcast Alternate Email</h3>
+<p class="margin-popup">If you have not provided Comcast with an alternate contact e-mail address for your Comcast account, Comcast will add the e-mail that you use to login to Facebook as the alternate contact e-mail address for your Comcast account.</p>
+<h3>Limiting Auto Login</h3>
+<p>Comcast does not control Facebook's "Keep me logged in" feature.  If you use this feature, you (and other users of this device) may be automatically logged in to certain portions of XFINITY TV and XFINITY.com.  You can learn more about Facebook's "Keep me logged in" feature <a href="http://www.facebook.com/help" target="_blank">here</a>.  You can disconnect the log-in connection between your Facebook and Comcast accounts by going to your "App Settings" in Facebook and deleting the XFINITY app.</p>
+</div></div>
+
+ 	</div>
+ 	<br class="clear" />
+</div>
+<div id="ft-outer" style="display: block; position: static;"><div id="ft">
+
+
+<div class="ft_wrap">
+<ul>
+<li class="logo">Xfinity</li>
+<li class="first">© 2016 Comcast</li>
+<li><a href="http://xfinity.comcast.net/siteindex/" title="Site Map">Site Map</a></li>
+<li><a href="http://xfinity.comcast.net/privacy/" title="Privacy Policy">Privacy Policy</a></li>
+<li><a href="http://my.xfinity.com/terms/web/" title="Terms of Service">Terms of Service</a></li>
+<li><a href="https://customer.comcast.com/contact-us/" title="Contact Us">Contact Us</a></li>
+<li class="clogo">Comcast</li>
+</ul>
+</div>
+<div class="truste">
+<div id="b537c389-7be1-4331-bb73-03a71788bc12"><script type="text/javascript" src="//privacy-policy.truste.com/privacy-seal/Comcast-Cable-Communications-Management,-LLC/asc?rid=b537c389-7be1-4331-bb73-03a71788bc12"></script><a href="//privacy.truste.com/privacy-seal/Comcast-Cable-Communications-Management,-LLC/validation?rid=bf9d4d6f-2b32-4201-a167-5b55a4451508" title="TRUSTe online privacy certification" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/Comcast-Cable-Communications-Management,-LLC/seal?rid=9426d53b-42b1-4587-8d55-c57322ccb60d" alt="TRUSTe online privacy certification" /></a></div>
+</div>
+</div></div>
+
+
+<script type="text/javascript" src="/static/js/libs/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/static/js/libs/jquery.tools-1.2.6.min.js"></script>
+
+<script type="text/javascript" src="/static/js/scripts-default.min.js"></script>
+<script type="text/javascript">
+
+	$(function(){
+		login.init({
+			usernameId: 'user',
+			passwordId: 'passwd',
+			authnEmptyError: 'Please type in your email or username and password to sign in.',
+			reenterUsername: 'Please re-enter username.',
+			reenterPassword: 'Please re-enter password.'
+		});
+		$('#forgotPwdLink').click(login.openLinkWithLoginId);
+		$("#fb_learn_more_text").overlay(login.commonOverlayProp);
+		$("#rm_label_learn_more").overlay(login.commonOverlayProp);
+
+	})
+</script>
+
+<div id="fb-root" class=" fb_reset"><script async="" src="https://connect.facebook.net/en_US/all.js"></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/P5DLcu0KGJB.js?version=42#channel=f3b2cfed0&amp;origin=https%3A%2F%2Flogin.comcast.net" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script type="text/javascript">
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId: 161991040493541,
+			status: true,
+			cookie: true,
+			xfbml: true,
+			oauth: true});
+	};
+
+	function fblogin() {
+		FB.login(callServer, {scope:'email'});
+	}
+
+	function callServer(response) {
+		if(response.authResponse) {
+			window.location="https://login.comcast.net/login?reqId=74181f9f-a7c0-4bbf-8d51-b47d1b2a481c&forceAuthn=true&ipAddrAuthn=false&lang=en&s=oauth&deviceAuthn=false&r=comcast.net&continue=https%3A%2F%2Flogin.comcast.net%2Foauth%2Fauthorize%3Fclient_id%3Dhome-xfinity-com%26response_type%3Dcode%26scope%3Dhttps%3A%2F%2Flogin.comcast.net%2Fapi%2Flogin%2520openid%2520profile%2520https%3A%2F%2Fsecure.api.comcast.net%2Fhomesecurity%2Fcvr%2523read%2520urn%253Acsp%253Ascope%253Aself-help%253Aaccount%253Ainternet-devices%2523read%26state%3D%2F%26redirect_uri%3Dhttps%3A%2F%2Ftps.home.xfinity.com%2Fsession%2Fcima_oauth2redirect%2F%26prompt%3Dlogin%26response%3D1&passive=false&client_id=home-xfinity-com&rm=1&access_token="+response.authResponse.accessToken;
+		}else{
+			// user cancelled login
+		}
+	}
+
+	(function() {
+		var e = document.createElement('script');
+		e.async = true;
+		e.src = document.location.protocol+'//connect.facebook.net/en_US/all.js';
+		document.getElementById('fb-root').appendChild(e);
+	}());
+</script>
+
+<script type="text/javascript">
+$(function() {
+    $(window).load(login.placeFooter);
+    $(window).resize(login.placeFooter);
+    login.setupFieldtipPopupActivation();
+});
+</script>
+
+
+	<div style="display:none">
+<script type="text/javascript" src="/static/js/omniture.js?v=1cfffbf"></script>
+<script type="text/javascript"><!--
+	s.pageName="sign in"
+	s.events = "event11"
+	s.channel = "sign in"
+	s.prop4 = "sign in"
+	s.prop7 = "home-xfinity-com"
+	s.prop33 = "comcast net"
+	s.prop35 = "authentication"
+	s.prop36 = "site:home"
+	s.eVar36 = "site:home"
+	s.eVar47 = "anonymous"
+	s.eVar7 = "home-xfinity-com"
+
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code);//-->
+</script>
+</div>
+
+
+</body></html>

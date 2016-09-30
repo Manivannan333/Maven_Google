@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+	<title>Sign in to Comcast</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" type="text/css" href="/static/css/styles.min.css?v=1cfffbf" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="description" content="Comcast.net has more to offer when you sign in to your mySIGN-IN Account. Use your account to access other Comcast sites and services like Comcast.net, Plaxo, and more." />
+	<meta name="viewport" content="width=1024" />
+	<link rel="shortcut icon" href="/static/images/global/favicon.ico" />
+	<script type="text/javascript">
+	runtimeData = {
+		"reqId": "04674e3c-5a13-4ae9-9fc5-1f7d59862a2e",		"deviceAuthn": "false",		"s": "oauth",		"forceAuthn": "true",		"r": "comcast.net",		"ipAddrAuthn": "false",		"continue": "https://login.comcast.net/oauth/authorize?client_id=home-xfinity-com&amp;response_type=code&amp;scope=https://login.comcast.net/api/login%20openid%20profile%20https://secure.api.comcast.net/homesecurity/cvr%23read%20urn%3Acsp%3Ascope%3Aself-help%3Aaccount%3Ainternet-devices%23read&amp;state=/&amp;redirect_uri=https://tps.home.xfinity.com/session/cima_oauth2redirect/&amp;prompt=login&amp;response=1",		"passive": "false",		"client_id": "home-xfinity-com",		"lang": "en"	}
+	</script>
+	<script>
+(function() {
+var htmlElem = document.getElementsByTagName('html')[0];
+if (htmlElem.className.indexOf('dark') != -1) {
+function updateBackground() {
+var background = document.getElementById('background');
+if (background)
+background.style.height = window.innerHeight + 'px';
+}
+function updateBackgroundWhenAllowed() {
+var background = document.getElementById('background');
+if (background) {
+var currentHeight = parseInt(background.style.height || 0,10),
+heightIncreasing = window.innerHeight > currentHeight;
+if (heightIncreasing)
+updateBackground();
+}
+}
+if (window.addEventListener) {
+window.addEventListener("orientationchange", updateBackground);
+window.addEventListener("resize", updateBackgroundWhenAllowed);
+}
+htmlElem.style.backgroundColor = "#000";
+}
+})();
+</script>
+<script type="text/javascript" src="https://rtax.criteo.com/delivery/rta/rta.js?netId=2528&amp;cookieName=crtg_comcast&amp;rnd=71222304458&amp;varName=crtg_content" async=""></script></head>
+<body>
+<div id="bd" class="signin clearfix">
+		<div id="left">    <style type="text/css">#ad-block{width:300px;margin:0 0 0 auto}#ad-wrapper{width:300px}#ads-info{font-size:10px;margin:9px 0 0 0;text-align:center}#ads-info a{margin-left:20px}#ads-info a.first{margin-left:0}</style>
+<div id="ad-block">
+<h2 id="ad-heading" class="screen-reader-text">Advertisement</h2>
+<div id="ad-wrapper">
+<!-- Start Mail ad tag -->
+<script type="text/javascript">
+(function() {
+var unknown_zip = "US:UNKNOWN",
+unknown_cid = "NONE";
+function matchKeys(keys) {
+var re = new RegExp('(?:' + keys.join('|') + ')=(?:\\"|%22)(.*?)(?:\\"|%22)');
+var matches = document.cookie.match(re);
+if (!matches) return null;
+return matches[1];
+}
+var flag_matches = document.cookie.match(/(?:adt_optout_flag)=(true|false)/);
+var optout = (flag_matches && flag_matches[1] == "true");
+window.f_ADTARGET_ZIP = (function() {
+if (optout) return unknown_zip;
+var zip = matchKeys(['adt_zip']);
+if (!zip) return unknown_zip;
+return "US:" + zip;
+})();
+window.f_AM_CID = (function() {
+if (optout) return unknown_cid;
+var cid = matchKeys(['amcid']);
+if (!cid) return unknown_cid;
+cid = unescape(cid);
+return cid.replace(",","&am=");
+})();
+window.f_ENABLE_ADTARGETING = true;
+})();
+</script>
+
+<script type="text/javascript">
+var crtg_nid = '2528';
+var crtg_cookiename = 'crtg_comcast';
+var crtg_varname = 'crtg_content';
+function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);} }return'';}
+var crtg_content = crtg_getCookie(crtg_cookiename);
+var crtg_rnd=Math.floor(Math.random()*99999999999);
+(function(){
+var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+crtg_url +='&cookieName='+escape(crtg_cookiename);
+crtg_url +='&rnd='+crtg_rnd;
+crtg_url +='&varName=' + escape(crtg_varname);
+var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);
+else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+})();
+</script>
+
+<script type="text/javascript">
+quantSegs='';
+function qc_results(result) {
+for (var i = 0; i < result.segments.length; i++)
+{
+quantSegs += "&qsg=" + result.segments[i].id;
+}
+}
+</script>
+
+<script type="text/javascript" src="//pixel.quantserve.com/api/segments.json?a=p-9eJ8k4iSzux46&amp;callback=qc_results&amp;ttl=86400"></script>
+
+<script type="text/javascript">
+// <![CDATA[
+var _vdlg = _vdlg || {};
+_vdlg.comcastOASAudiences = '';
+_vdlg.comcastOASCallback = function(userData) {
+  if(userData && userData.status === 0 && userData.user.audiences) {
+
+    if(typeof userData.user.audiences === 'string') {
+      var codes = userData.user.audiences.split(',');
+      for (var i = 0; i < codes.length; i++) {
+          _vdlg.comcastOASAudiences += "&vidaud=" + codes[i].trim();
+      }
+    }
+    else {
+      for (var i = 0; i < userData.user.audiences.length; i++) {
+        _vdlg.comcastOASAudiences += "&vidaud=" + userData.user.audiences[i].code;
+      }
+    }
+  }
+};
+// ]]>
+</script>
+<script type="text/javascript" src="//dmp.tidaltv.com/audience/browser/data.json?a=ea88754cd14d442091b4a4ae31437756&amp;callback=_vdlg.comcastOASCallback"></script>
+
+<script type="text/javascript">
+// <![CDATA[
+var opts = [];
+if (typeof f_ADTARGET_ZIP != 'undefined')
+opts.push('_OAS_GEO_OVERRIDE_=' + f_ADTARGET_ZIP);
+if (typeof f_AM_CID != 'undefined')
+opts.push('am=' + f_AM_CID.split(',').join('&am='));
+if (typeof quantSegs != 'undefined')
+opts.push(quantSegs.slice(1));
+if (typeof _vdlg != 'undefined' && _vdlg.comcastOASAudiences) {
+opts.push(_vdlg.comcastOASAudiences.slice(1));
+}
+if (typeof crtg_content != 'undefined') {
+opts.push(crtg_content);
+}
+if (location.search.indexOf('AdParam') != -1) {
+opts.push('AdParam='+location.search.slice(9));
+}
+OAS_query = opts.join('&');
+OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+// ]]>
+</script>
+
+<script type="text/javascript">
+OAS_type = 'jx'; //jx or mjx
+OAS_sitepage = 'comcast.net/login_secure/notve';
+OAS_listpos = 'x32';
+
+var first_time="ftu";
+if
+    (document.cookie.indexOf("prefs") >= 0) {first_time="normal";};
+if
+    (document.referrer.search('tt2')==-1) {first_time="normal";};
+document.write('<script type="text/javascript" src=\"//oascentral.comcast.net/RealMedia/ads/adstream_' + OAS_type + '.ads/' + OAS_sitepage + '/1' + OAS_rns +'@' + OAS_listpos + '?target=' + first_time + '&' + OAS_query + '\" ></scr' + 'ipt>');
+</script><script type="text/javascript" src="//oascentral.comcast.net/RealMedia/ads/adstream_jx.ads/comcast.net/login_secure/notve/1443224912@x32?target=normal&amp;_OAS_GEO_OVERRIDE_=US:UNKNOWN&amp;am=NONE&amp;qsg=D&amp;"></script>
+<!--End Mail ad tag -->
+
+</div>
+<div id="ads-info"><a class="first" href="http://www.comcast.net/adinformation" rel="default" target="_blank">Ad Info</a><a href="https://www.surveymonkey.com/s.aspx?sm=FyNNVDhj_2f2FNc2KVOHQ4eg_3d_3d" target="_blank">Ad Feedback</a></div>
+</div>
+</div>
+	<div id="right">
+		<div id="signin-box">
+	<form name="signin" action="https://login.comcast.net/login" method="post" onsubmit="return login.onSubmit()">
+	<div id="signin">
+		<h1 class="xfinity-logo no-error">XFINITY</h1>
+		<div class="sign_in">
+					<h2>Sign-in with your Comcast Username</h2>
+				</div>
+		<label for="user" id="login_id_label">Email or username </label>
+		<p class="logged_in">cimxhm4@comcast.net</p>
+		<p class="relogin">Not you? <a href="https://login.comcast.net/logout?s=oauth&amp;r=comcast.net&amp;continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D04674e3c-5a13-4ae9-9fc5-1f7d59862a2e%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D2">Sign in as a different person</a></p>
+		<input type="hidden" name="user" id="user" value="cimxhm4@comcast.net" />
+		<label for="passwd" id="password_label">Password </label>
+		<input id="passwd" name="passwd" type="password" maxlength="128" tabindex="2" />
+<button type="submit" id="sign_in" tabindex="5">SIGN IN ►<span class="triange-right icon"></span></button>
+		<p class="fblearnmore fb_not_available">Facebook Connect is not supported for this XFINITY product.
+		<a href="#" id="fb_learn_more_text" rel="#fb_learn_more_help" aria-label="Learn more about connecting through Facebook"><strong>Learn more</strong></a></p>
+
+<p class="forgot_link first"><a href="https://login.comcast.net/myaccount/lookup?continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D04674e3c-5a13-4ae9-9fc5-1f7d59862a2e%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D2&amp;lang=en" target="_self" title="Lookup User ID"><strong>Don't know your email or username?</strong></a></p>
+<p class="forgot_link"><a id="forgotPwdLink" href="https://login.comcast.net/myaccount/reset?continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D04674e3c-5a13-4ae9-9fc5-1f7d59862a2e%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D2&amp;lang=en" target="_self" title="Reset Password"><strong>Forgot your password?</strong></a></p>
+
+		<input type="hidden" name="reqId" value="04674e3c-5a13-4ae9-9fc5-1f7d59862a2e" />
+		<input type="hidden" name="deviceAuthn" value="false" />
+		<input type="hidden" name="s" value="oauth" />
+		<input type="hidden" name="forceAuthn" value="true" />
+		<input type="hidden" name="r" value="comcast.net" />
+		<input type="hidden" name="ipAddrAuthn" value="false" />
+		<input type="hidden" name="continue" value="https://login.comcast.net/oauth/authorize?client_id=home-xfinity-com&amp;response_type=code&amp;scope=https://login.comcast.net/api/login%20openid%20profile%20https://secure.api.comcast.net/homesecurity/cvr%23read%20urn%3Acsp%3Ascope%3Aself-help%3Aaccount%3Ainternet-devices%23read&amp;state=/&amp;redirect_uri=https://tps.home.xfinity.com/session/cima_oauth2redirect/&amp;prompt=login&amp;response=1" />
+		<input type="hidden" name="passive" value="false" />
+		<input type="hidden" name="client_id" value="home-xfinity-com" />
+		<input type="hidden" name="lang" value="en" />
+ 	</div>
+
+
+		<div id="needaccess">
+			<h2>Don't have a username?</h2>
+			<p class="action"><a href="https://login.comcast.net/myaccount/create-uid?continue=https%3A%2F%2Flogin.comcast.net%2Flogin%3FreqId%3D04674e3c-5a13-4ae9-9fc5-1f7d59862a2e%26forceAuthn%3Dtrue%26ipAddrAuthn%3Dfalse%26lang%3Den%26s%3Doauth%26deviceAuthn%3Dfalse%26r%3Dcomcast.net%26continue%3Dhttps%253A%252F%252Flogin.comcast.net%252Foauth%252Fauthorize%253Fclient_id%253Dhome-xfinity-com%2526response_type%253Dcode%2526scope%253Dhttps%253A%252F%252Flogin.comcast.net%252Fapi%252Flogin%252520openid%252520profile%252520https%253A%252F%252Fsecure.api.comcast.net%252Fhomesecurity%252Fcvr%252523read%252520urn%25253Acsp%25253Ascope%25253Aself-help%25253Aaccount%25253Ainternet-devices%252523read%2526state%253D%252F%2526redirect_uri%253Dhttps%253A%252F%252Ftps.home.xfinity.com%252Fsession%252Fcima_oauth2redirect%252F%2526prompt%253Dlogin%2526response%253D1%26passive%3Dfalse%26client_id%3Dhome-xfinity-com%26rm%3D2&amp;lang=en" target="_self">Create one</a></p>
+		</div>
+		<div id="quick-bill-pay" class="action">
+			<h2>Don't want to sign in?</h2>
+			<p class="action"><a href="https://customer.xfinity.com/lite" target="_self">Quick bill pay</a></p>
+		</div>
+ 	</form>
+</div>
+
+
+
+<div id="fb_learn_more_help" role="dialog" class="jq-overlay" aria-describedby="fb_learn_more_help_descr"><a href="#" class="close"></a><div class="inner" id="fb_learn_more_help_descr">
+<h1>Signing in with Facebook Connect</h1>
+<p>Facebook Connect is available for signing in to all of your XFINITY services except XFINITY Connect, XFINITY Home, and your account section within My Account.</p>
+</div></div>
+
+ 	</div>
+ 	<br class="clear" />
+</div>
+<div id="ft-outer" style="display: block; position: static;"><div id="ft">
+
+
+<div class="ft_wrap">
+<ul>
+<li class="logo">Xfinity</li>
+<li class="first">© 2016 Comcast</li>
+<li><a href="http://xfinity.comcast.net/siteindex/" title="Site Map">Site Map</a></li>
+<li><a href="http://xfinity.comcast.net/privacy/" title="Privacy Policy">Privacy Policy</a></li>
+<li><a href="http://my.xfinity.com/terms/web/" title="Terms of Service">Terms of Service</a></li>
+<li><a href="https://customer.comcast.com/contact-us/" title="Contact Us">Contact Us</a></li>
+<li class="clogo">Comcast</li>
+</ul>
+</div>
+<div class="truste">
+<div id="b537c389-7be1-4331-bb73-03a71788bc12"><script type="text/javascript" src="//privacy-policy.truste.com/privacy-seal/Comcast-Cable-Communications-Management,-LLC/asc?rid=b537c389-7be1-4331-bb73-03a71788bc12"></script><a href="//privacy.truste.com/privacy-seal/Comcast-Cable-Communications-Management,-LLC/validation?rid=bf9d4d6f-2b32-4201-a167-5b55a4451508" title="TRUSTe online privacy certification" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/Comcast-Cable-Communications-Management,-LLC/seal?rid=9426d53b-42b1-4587-8d55-c57322ccb60d" alt="TRUSTe online privacy certification" /></a></div>
+</div>
+</div></div>
+
+
+<script type="text/javascript" src="/static/js/libs/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/static/js/libs/jquery.tools-1.2.6.min.js"></script>
+
+<script type="text/javascript" src="/static/js/scripts-default.min.js"></script>
+<script type="text/javascript">
+
+	$(function(){
+		login.init({
+			usernameId: 'user',
+			passwordId: 'passwd',
+			authnEmptyError: 'Please type in your email or username and password to sign in.',
+			reenterUsername: 'Please re-enter username.',
+			reenterPassword: 'Please re-enter password.'
+		});
+		$('#forgotPwdLink').click(login.openLinkWithLoginId);
+		$("#fb_learn_more_text").overlay(login.commonOverlayProp);
+
+	})
+</script>
+
+
+<script type="text/javascript">
+$(function() {
+    $(window).load(login.placeFooter);
+    $(window).resize(login.placeFooter);
+    login.setupFieldtipPopupActivation();
+});
+</script>
+
+
+	<div style="display:none">
+<script type="text/javascript" src="/static/js/omniture.js?v=1cfffbf"></script>
+<script type="text/javascript"><!--
+	s.pageName="sign in"
+	s.events = "event11"
+	s.channel = "sign in"
+	s.prop4 = "sign in"
+	s.prop7 = "home-xfinity-com"
+	s.prop33 = "comcast net"
+	s.prop35 = "authentication"
+	s.prop36 = "site:home"
+	s.eVar36 = "site:home"
+	s.eVar47 = "anonymous"
+	s.eVar7 = "home-xfinity-com"
+
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code);//-->
+</script>
+</div>
+
+
+</body></html>

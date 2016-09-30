@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="81c7b4f11387ad3bd4b8e295244dea789fb35784debe0936c19f78a9631d91aa.html">Overview</a>
+                > <a
+                    href="7ba0e37ab5270bdd7a09d6309a129d8d16d2d3c8cf082469325464362f00392e.html">Arming the System with Stay mode </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-09-2016 16:01</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Overview </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="83b0ab237a13b7a923f43420403d66e3737c28a56fcf516f4b9f61b0fe2f56b1.html">Reg1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Arming the System with Stay mode
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+
+        <div class="scenario">Given XFINITY Home application URL has been launched<br>And Agent has logged into XFINITY Home successfully with "cimxhm22" and "Xhome170!"<br>And Check the system is Armed and make it disarmed<br>Then Arm the system in Stay mode<br>Then User signout</div>
+    </div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8d9a45f366ff2bdaea03059dfe0bcce8.png" title="Given XFINITY Home application URL has been launched" width="960"/>
+                <img src="8d9a45f366ff2bdaea03059dfe0bcce8.png" title="And Agent has logged into XFINITY Home successfully with &quot;cimxhm22&quot; and &quot;Xhome170!&quot;" width="960"/>
+                <img src="8f3a55e4e3c05195cae08666ae667764.png" title="And Agent has logged into XFINITY Home successfully with &quot;cimxhm22&quot; and &quot;Xhome170!&quot;" width="960"/>
+                <img src="146ac8e76d7baa64ff8e478d15f5a2de.png" title="And Agent has logged into XFINITY Home successfully with &quot;cimxhm22&quot; and &quot;Xhome170!&quot;" width="960"/>
+                <img src="2e85d41c7e4b5f21f6929332471d3978.png" title="And Check the system is Armed and make it disarmed" width="960"/>
+                <img src="e3c7bf886a4243a7cbf97909917b80f5.png" title="And Check the system is Armed and make it disarmed" width="960"/>
+                <img src="e3c7bf886a4243a7cbf97909917b80f5.png" title="Then Arm the system in Stay mode" width="960"/>
+                <img src="9a1ad5001e5008f2b3fc298ec6664075.png" title="Then Arm the system in Stay mode" width="960"/>
+                <img src="34c9fd83e6ad50f02b423e1ac8450d70.png" title="Then Arm the system in Stay mode" width="960"/>
+                <img src="a2afd8a557e4f78bee2eaba38e346b42.png" title="Then Arm the system in Stay mode" width="960"/>
+                <img src="c26270b088e9caaf1e61867d086f9abf.png" title="Then Arm the system in Stay mode" width="960"/>
+                <img src="c26270b088e9caaf1e61867d086f9abf.png" title="Then User signout" width="960"/>
+                <img src="9dcd3ea041821c845e4fd8ec2f6191b3.png" title="Then User signout: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.36</span>
+</div>
+</body>
+</html>

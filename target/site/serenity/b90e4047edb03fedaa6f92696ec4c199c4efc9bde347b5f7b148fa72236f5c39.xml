@@ -1,0 +1,70 @@
+<acceptance-test-run title="Arming the System with Night mode" name="Arming the System with Night mode" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="153462" timestamp="2016-09-25T15:54:46.065-04:00" session-id="410c3b7c-d733-c547-bfe0-258db20eda49">
+  <user-story id="overview" name="Overview" path="Overview.feature"/>
+  <tags>
+    <tag name="Overview" type="feature"/>
+    <tag name="reg" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>user_name</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>cimxhm22</value>
+        <value>Xhome170!</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {user_name=cimxhm22, password=Xhome170!}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7c93d431ce3f72aafca2b917b47b8ca3.png"/>
+      <screenshot image="36a78f91439b8d7aefa4df33b7f49763.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6202">
+      <screenshots>
+        <screenshot image="7c93d431ce3f72aafca2b917b47b8ca3.png"/>
+        <screenshot image="e219f28546056aa279d36767963e2caf.png"/>
+      </screenshots>
+      <description>Given XFINITY Home application URL has been launched</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="20445">
+      <screenshots>
+        <screenshot image="e219f28546056aa279d36767963e2caf.png"/>
+        <screenshot image="7a00c06aa00c0f380584dd6e361fa454.png"/>
+        <screenshot image="938828856ea69183a1a239f44a4972aa.png"/>
+      </screenshots>
+      <description>And Agent has logged into XFINITY Home successfully with &quot;cimxhm22&quot; and &quot;Xhome170!&quot;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="11112">
+      <screenshots>
+        <screenshot image="ea1b3f5b710c0f0630f0b150b584d8bf.png"/>
+        <screenshot image="3337e027da107f8b5a57bcf4dedc0e27.png"/>
+        <screenshot image="eccd81ba4a2c6d666b29d49a4b36fca8.png"/>
+        <screenshot image="e46d2c9ffdce6561a05edafcfbf96892.png"/>
+      </screenshots>
+      <description>And Check the system is Armed and make it disarmed</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="97649">
+      <screenshots>
+        <screenshot image="e46d2c9ffdce6561a05edafcfbf96892.png"/>
+        <screenshot image="faae62e5711aac7a85e244d5a6a5de92.png"/>
+        <screenshot image="7a6101ed8a9200687f1c2ae232afc672.png"/>
+        <screenshot image="ba8a220af55ebaa98e2ee369bfb6d994.png"/>
+        <screenshot image="3ec92aef3345ad68351b282b90825d9b.png"/>
+      </screenshots>
+      <description>Then Arm the system in Night mode</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="14428">
+      <screenshots>
+        <screenshot image="387d9bdda490db3df6d83b1feb45b3b2.png"/>
+        <screenshot image="c6a81275fa545a28e8e9421b7ae44960.png"/>
+        <screenshot image="ec2200c4b34bb42abf02e2403f69bd91.png"/>
+      </screenshots>
+      <description>Then User signout</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
